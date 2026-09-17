@@ -51,9 +51,19 @@ def test_spacing_extractor_constant_quarters():
 
 
 def test_spacing_extractor_matches_old_module_raw_values():
-    old_root = Path(
-        "/Users/nimo2/Desktop/MIDI_SEARCH/MIDI_STAT_NEW_CLEAN_V3 copy/midi_stat_calculator/src"
-    )
+    import os
+    import sys
+    from pathlib import Path
+
+    env = os.getenv("MIDI_STAT_SRC")
+    if not env:
+        import pytest
+
+        pytest.skip(
+            "set MIDI_STAT_SRC to a legacy midi_stat_calculator 'src' directory "
+            "to run this comparison"
+        )
+    old_root = Path(env)
     sys.path.insert(0, str(old_root))
     from extractor.common.rhythm import spacing as old_spacing
 

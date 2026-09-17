@@ -5,6 +5,8 @@ __pycache__/
 .Python
 .DS_Store
 **/__MACOSX/
+.pytest_cache/
+.ruff_cache/
 default_dataset/ASF-4_preprocessed/
 default_dataset/Cinematic_preprocessed/
 default_dataset/Dubstep_preprocessed/

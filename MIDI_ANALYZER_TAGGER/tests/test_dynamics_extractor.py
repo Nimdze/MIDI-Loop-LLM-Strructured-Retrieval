@@ -88,12 +88,19 @@ def test_dynamics_extractor_fades_velocity():
 
 
 def test_dynamics_extractor_matches_old_module_raw_values():
+    import os
     import sys
     from pathlib import Path
 
-    old_root = Path(
-        "/Users/nimo2/Desktop/MIDI_SEARCH/MIDI_STAT_NEW_CLEAN_V3 copy/midi_stat_calculator/src"
-    )
+    env = os.getenv("MIDI_STAT_SRC")
+    if not env:
+        import pytest
+
+        pytest.skip(
+            "set MIDI_STAT_SRC to a legacy midi_stat_calculator 'src' directory "
+            "to run this comparison"
+        )
+    old_root = Path(env)
     sys.path.insert(0, str(old_root))
     from extractor.common.expression import dynamics as old_dynamics
 

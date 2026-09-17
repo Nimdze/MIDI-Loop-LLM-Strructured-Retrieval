@@ -31,8 +31,9 @@ import json
 import re
 import sys
 from collections import Counter
+from pathlib import Path
 
-PROMPT_PATH = "/Users/nimo2/Desktop/MIDI_SEARCH/MIDI_RETRIEVE/system_prompt.txt"
+PROMPT_PATH = Path(__file__).resolve().parents[3] / "system_prompt.txt"
 MATERIALS_PATH = "evaluation_3_materials.json"
 
 # --- tokenizer (inlined so this file has no dependency on lexical_distance.py) ---

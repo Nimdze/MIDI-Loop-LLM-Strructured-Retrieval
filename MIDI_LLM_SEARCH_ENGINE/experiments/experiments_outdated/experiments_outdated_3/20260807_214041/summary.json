@@ -1,8 +1,0 @@
-{
-  "phase": "test_5",
-  "bank": "test_5_vague_queries.json",
-  "total": 50,
-  "errors": 0,
-  "with_targets": 50,
-  "mean_novelty": 0.665
-}
