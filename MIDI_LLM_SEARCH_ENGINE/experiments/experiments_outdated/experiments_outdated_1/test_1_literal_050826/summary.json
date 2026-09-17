@@ -1,0 +1,72 @@
+{
+  "phase": "test1",
+  "description": "Literal tag reproduction at combos 1-10",
+  "total_combos": 300,
+  "passed": 298,
+  "failed": 2,
+  "accuracy": 0.9933,
+  "families": {
+    "drums": {
+      "total": 150,
+      "passed": 148,
+      "accuracy": 0.9867
+    },
+    "pitched": {
+      "total": 150,
+      "passed": 150,
+      "accuracy": 1.0
+    }
+  },
+  "combos": {
+    "1": {
+      "total": 40,
+      "passed": 40,
+      "accuracy": 1.0
+    },
+    "2": {
+      "total": 40,
+      "passed": 40,
+      "accuracy": 1.0
+    },
+    "3": {
+      "total": 40,
+      "passed": 40,
+      "accuracy": 1.0
+    },
+    "4": {
+      "total": 40,
+      "passed": 39,
+      "accuracy": 0.975
+    },
+    "5": {
+      "total": 40,
+      "passed": 40,
+      "accuracy": 1.0
+    },
+    "6": {
+      "total": 20,
+      "passed": 20,
+      "accuracy": 1.0
+    },
+    "7": {
+      "total": 20,
+      "passed": 20,
+      "accuracy": 1.0
+    },
+    "8": {
+      "total": 20,
+      "passed": 19,
+      "accuracy": 0.95
+    },
+    "9": {
+      "total": 20,
+      "passed": 20,
+      "accuracy": 1.0
+    },
+    "10": {
+      "total": 20,
+      "passed": 20,
+      "accuracy": 1.0
+    }
+  }
+}

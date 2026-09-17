@@ -1,0 +1,26 @@
+[project]
+name = "midi_llm_search_engine"
+version = "0.2.0"
+description = "LLM translation layer for tagged MIDI libraries — prompt builder, LLM client, taxonomy management, and test infrastructure."
+requires-python = "==3.14.*"
+dependencies = [
+    "pydantic==2.13.4",
+    "openai==2.48.0",
+    "python-dotenv==1.2.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+    "pytest-cov==7.1.0",
+]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py", "evaluation_*.py"]

@@ -1,0 +1,7 @@
+{
+  "phase": "test3v",
+  "description": "Combos 5-10 validation (seed=7)",
+  "total": 310,
+  "passed": 287,
+  "accuracy": 0.9258
+}

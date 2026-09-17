@@ -1,0 +1,30 @@
+[project]
+name = "midi-preprocessor"
+version = "0.0.0"
+description = "MIDI preprocessing pipeline: validation, splitting, tempo normalization, slicing"
+requires-python = "==3.14.*"
+dependencies = [
+    "numpy==2.5.1",
+    "pretty_midi==0.2.11",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+    "pytest-cov==7.1.0",
+    "ruff==0.15.22",
+]
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

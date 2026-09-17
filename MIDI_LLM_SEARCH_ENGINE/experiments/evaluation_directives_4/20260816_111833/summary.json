@@ -1,0 +1,17 @@
+{
+  "phase": "evaluation_4",
+  "description": "Importance & fallback directives (relative importance + directional fallback)",
+  "total": 30,
+  "passed": 29,
+  "failed": 1,
+  "importance": {
+    "checked": 110,
+    "passed": 109,
+    "accuracy": 0.9909
+  },
+  "fallback": {
+    "checked": 8,
+    "passed": 8,
+    "accuracy": 1.0
+  }
+}

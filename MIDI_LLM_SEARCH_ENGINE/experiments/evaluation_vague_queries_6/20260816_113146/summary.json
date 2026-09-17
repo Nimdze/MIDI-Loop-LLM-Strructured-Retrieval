@@ -1,0 +1,15 @@
+{
+  "phase": "evaluation_5",
+  "bank": "evaluation_6_vague_queries.json",
+  "total": 50,
+  "errors": 0,
+  "with_targets": 50,
+  "mean_novelty": 0.7123,
+  "token_usage": {
+    "prompt_avg": 19207,
+    "completion_avg": 3765,
+    "total_prompt": 960356,
+    "total_completion": 188250
+  },
+  "response_time_ms_avg": 33681.4
+}

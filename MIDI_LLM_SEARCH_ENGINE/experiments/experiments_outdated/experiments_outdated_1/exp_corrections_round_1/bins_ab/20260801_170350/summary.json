@@ -1,0 +1,380 @@
+{
+  "configs": {
+    "baseline": {
+      "group_bins": false,
+      "use_generic_bin_levels": false
+    },
+    "proposed": {
+      "group_bins": true,
+      "use_generic_bin_levels": true
+    },
+    "isolate_B": {
+      "group_bins": true,
+      "use_generic_bin_levels": false
+    }
+  },
+  "targets": [
+    [
+      "spacing_16th_share",
+      "gaps are mostly at the 16th note level"
+    ],
+    [
+      "spacing_8th_share",
+      "gaps are mostly at the 8th note level"
+    ],
+    [
+      "spacing_quarter_share",
+      "gaps are mostly at the quarter note level"
+    ],
+    [
+      "spacing_half_share",
+      "gaps are mostly at the half note level"
+    ],
+    [
+      "spacing_whole_share",
+      "gaps are mostly at the whole note level"
+    ],
+    [
+      "duration_8th_share",
+      "notes mostly last an 8th note"
+    ],
+    [
+      "duration_quarter_share",
+      "notes mostly last a quarter note"
+    ],
+    [
+      "harmonic_density_pct_3_notes",
+      "mostly three notes sounding at once"
+    ],
+    [
+      "harmonic_density_pct_5_notes",
+      "mostly five notes sounding at once"
+    ],
+    [
+      "profile_harmonic_intervals_pct_07_semitones",
+      "mostly perfect fifths between chord tones"
+    ],
+    [
+      "profile_harmonic_intervals_pct_12_semitones",
+      "mostly octaves between chord tones"
+    ],
+    [
+      "profile_melodic_intervals_pct_asc_4_semitones",
+      "melody mostly moves up by major thirds"
+    ]
+  ],
+  "results": {
+    "baseline": {
+      "total": 12,
+      "exact_name_hits": 12,
+      "accuracy_pct": 100.0,
+      "results": [
+        {
+          "concept": "spacing_16th_share",
+          "prompt": "gaps are mostly at the 16th note level",
+          "returned": [
+            "spacing_16th_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "spacing_8th_share",
+          "prompt": "gaps are mostly at the 8th note level",
+          "returned": [
+            "spacing_8th_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "spacing_quarter_share",
+          "prompt": "gaps are mostly at the quarter note level",
+          "returned": [
+            "spacing_quarter_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "spacing_half_share",
+          "prompt": "gaps are mostly at the half note level",
+          "returned": [
+            "spacing_half_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "spacing_whole_share",
+          "prompt": "gaps are mostly at the whole note level",
+          "returned": [
+            "spacing_whole_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "duration_8th_share",
+          "prompt": "notes mostly last an 8th note",
+          "returned": [
+            "duration_8th_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "duration_quarter_share",
+          "prompt": "notes mostly last a quarter note",
+          "returned": [
+            "duration_quarter_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "harmonic_density_pct_3_notes",
+          "prompt": "mostly three notes sounding at once",
+          "returned": [
+            "harmonic_density_pct_3_notes"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "harmonic_density_pct_5_notes",
+          "prompt": "mostly five notes sounding at once",
+          "returned": [
+            "harmonic_density_pct_5_notes"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "profile_harmonic_intervals_pct_07_semitones",
+          "prompt": "mostly perfect fifths between chord tones",
+          "returned": [
+            "profile_harmonic_intervals_pct_07_semitones"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "profile_harmonic_intervals_pct_12_semitones",
+          "prompt": "mostly octaves between chord tones",
+          "returned": [
+            "profile_harmonic_intervals_pct_12_semitones"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "profile_melodic_intervals_pct_asc_4_semitones",
+          "prompt": "melody mostly moves up by major thirds",
+          "returned": [
+            "melodic_intervals_pct_ascending",
+            "profile_melodic_intervals_pct_asc_4_semitones"
+          ],
+          "exact_name_hit": true
+        }
+      ]
+    },
+    "proposed": {
+      "total": 12,
+      "exact_name_hits": 12,
+      "accuracy_pct": 100.0,
+      "results": [
+        {
+          "concept": "spacing_16th_share",
+          "prompt": "gaps are mostly at the 16th note level",
+          "returned": [
+            "spacing_16th_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "spacing_8th_share",
+          "prompt": "gaps are mostly at the 8th note level",
+          "returned": [
+            "spacing_8th_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "spacing_quarter_share",
+          "prompt": "gaps are mostly at the quarter note level",
+          "returned": [
+            "spacing_quarter_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "spacing_half_share",
+          "prompt": "gaps are mostly at the half note level",
+          "returned": [
+            "spacing_half_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "spacing_whole_share",
+          "prompt": "gaps are mostly at the whole note level",
+          "returned": [
+            "spacing_whole_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "duration_8th_share",
+          "prompt": "notes mostly last an 8th note",
+          "returned": [
+            "duration_8th_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "duration_quarter_share",
+          "prompt": "notes mostly last a quarter note",
+          "returned": [
+            "duration_quarter_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "harmonic_density_pct_3_notes",
+          "prompt": "mostly three notes sounding at once",
+          "returned": [
+            "harmonic_density_pct_3_notes"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "harmonic_density_pct_5_notes",
+          "prompt": "mostly five notes sounding at once",
+          "returned": [
+            "harmonic_density_pct_5_notes"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "profile_harmonic_intervals_pct_07_semitones",
+          "prompt": "mostly perfect fifths between chord tones",
+          "returned": [
+            "profile_harmonic_intervals_pct_07_semitones"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "profile_harmonic_intervals_pct_12_semitones",
+          "prompt": "mostly octaves between chord tones",
+          "returned": [
+            "profile_harmonic_intervals_pct_12_semitones"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "profile_melodic_intervals_pct_asc_4_semitones",
+          "prompt": "melody mostly moves up by major thirds",
+          "returned": [
+            "melodic_intervals_pct_ascending",
+            "profile_melodic_intervals_pct_asc_4_semitones"
+          ],
+          "exact_name_hit": true
+        }
+      ]
+    },
+    "isolate_B": {
+      "total": 12,
+      "exact_name_hits": 12,
+      "accuracy_pct": 100.0,
+      "results": [
+        {
+          "concept": "spacing_16th_share",
+          "prompt": "gaps are mostly at the 16th note level",
+          "returned": [
+            "spacing_16th_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "spacing_8th_share",
+          "prompt": "gaps are mostly at the 8th note level",
+          "returned": [
+            "spacing_8th_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "spacing_quarter_share",
+          "prompt": "gaps are mostly at the quarter note level",
+          "returned": [
+            "spacing_quarter_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "spacing_half_share",
+          "prompt": "gaps are mostly at the half note level",
+          "returned": [
+            "spacing_half_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "spacing_whole_share",
+          "prompt": "gaps are mostly at the whole note level",
+          "returned": [
+            "spacing_whole_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "duration_8th_share",
+          "prompt": "notes mostly last an 8th note",
+          "returned": [
+            "duration_8th_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "duration_quarter_share",
+          "prompt": "notes mostly last a quarter note",
+          "returned": [
+            "duration_quarter_share"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "harmonic_density_pct_3_notes",
+          "prompt": "mostly three notes sounding at once",
+          "returned": [
+            "harmonic_density_pct_3_notes"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "harmonic_density_pct_5_notes",
+          "prompt": "mostly five notes sounding at once",
+          "returned": [
+            "harmonic_density_pct_5_notes"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "profile_harmonic_intervals_pct_07_semitones",
+          "prompt": "mostly perfect fifths between chord tones",
+          "returned": [
+            "profile_harmonic_intervals_pct_07_semitones"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "profile_harmonic_intervals_pct_12_semitones",
+          "prompt": "mostly octaves between chord tones",
+          "returned": [
+            "profile_harmonic_intervals_pct_12_semitones"
+          ],
+          "exact_name_hit": true
+        },
+        {
+          "concept": "profile_melodic_intervals_pct_asc_4_semitones",
+          "prompt": "melody mostly moves up by major thirds",
+          "returned": [
+            "melodic_intervals_pct_ascending",
+            "profile_melodic_intervals_pct_asc_4_semitones"
+          ],
+          "exact_name_hit": true
+        }
+      ]
+    }
+  }
+}

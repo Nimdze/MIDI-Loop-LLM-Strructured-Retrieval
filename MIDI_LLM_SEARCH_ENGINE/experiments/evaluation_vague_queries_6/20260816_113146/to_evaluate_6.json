@@ -1,0 +1,1392 @@
+[
+  {
+    "id": "vag_001",
+    "query": "make it sound like a rainy Tuesday",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "dynamics_average_velocity",
+        "level": "Soft Velocity",
+        "importance": 5,
+        "fallback": "nearest",
+        "why": "A rainy Tuesday evokes a gentle, subdued mood rather than an aggressive or loud one."
+      },
+      {
+        "concept": "duration_long_profile",
+        "level": "Primary Long Duration",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "rhythmic_density_average_events_per_beat",
+        "level": "Moderately (not too) Sparse",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "The mood is calm and unhurried, with space between events but not completely empty."
+      },
+      {
+        "concept": "register_median_note_midi",
+        "level": "Register: Low-Mid",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "A melancholic, overcast quality often sits lower in the pitch range rather than in bright treble."
+      },
+      {
+        "concept": "metadata_scale_type",
+        "level": "Minor",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "Rainy and pensive moods are commonly associated with a minor key."
+      },
+      {
+        "concept": "grid_macro_jitter",
+        "level": "Organic Macro Pocket",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "A rainy-day feel tends to be relaxed and slightly humanized rather than mechanically locked to the grid."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_001"
+    }
+  },
+  {
+    "id": "vag_002",
+    "query": "a bit more blue",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "tonality_out_of_key_notes",
+        "level": "1 Out-of-Key Note",
+        "importance": 5,
+        "fallback": "nearest",
+        "why": "'Blue' in a musical context refers to blue notes (chromatic notes like the flatted third, fifth, or seventh) that fall outside a standard major/minor scale. 'A bit more blue' implies adding a small degree of bluesy chromaticism, i.e. one out-of-key blue note."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_002"
+    }
+  },
+  {
+    "id": "vag_003",
+    "query": "like something you'd hear in an elevator",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "dynamics_average_velocity",
+        "level": "Soft Velocity",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "Elevator music is stereotypically soft and unobtrusive, never aggressive or loud."
+      },
+      {
+        "concept": "dynamics_accents_presence",
+        "level": "No Dynamic Accents",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Elevator music tends to be smooth and even, without pronounced accent peaks."
+      },
+      {
+        "concept": "dynamics_velocity_spread",
+        "level": "Natural Dynamic Variance",
+        "importance": 1,
+        "fallback": "nearest",
+        "why": "It has a natural, gentle ebb and flow rather than extreme dynamic contrasts."
+      },
+      {
+        "concept": "duration_long_profile",
+        "level": "Significant Long Duration",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "spacing_medium_profile",
+        "level": "Significant Medium Spacing",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "rhythmic_density_average_events_per_beat",
+        "level": "Moderately (not too) Busy",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "Elevator music is active enough to be engaging, but never frantic or crowded."
+      },
+      {
+        "concept": "grid_macro_jitter",
+        "level": "Tight Macro Pocket",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "The timing is clean and polished, typical of polished background music."
+      },
+      {
+        "concept": "harmonic_imperfect_consonance_pct",
+        "level": "Significant Imperfect Consonance",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "The harmony is warm and tonal, built around thirds and sixths."
+      },
+      {
+        "concept": "harmonic_dissonance_pct",
+        "level": "Negligible Dissonance",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "The harmony stays consonant and inoffensive, avoiding tense clashes."
+      },
+      {
+        "concept": "register_median_note_midi",
+        "level": "Register: Mid",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Elevator music sits comfortably in the mid register, neither too low nor too high."
+      },
+      {
+        "concept": "texture_polyphonic_pct",
+        "level": "Significant Chordal (3+ Notes)",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "It typically features chordal accompaniment rather than purely monophonic lines."
+      },
+      {
+        "concept": "melodic_intervals_absolute_median_semitones",
+        "level": "Stepwise / Scalar Melodic Motion",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "The melody is smooth and flowing, mostly moving by step rather than leaping."
+      },
+      {
+        "concept": "melodic_intervals_sequence_repetition_pct",
+        "level": "Mid-High Interval Pattern Repetition",
+        "importance": 1,
+        "fallback": "nearest",
+        "why": "Elevator music tends to be repetitive and loop-like, supporting easy listening."
+      },
+      {
+        "concept": "tonality_out_of_key_notes",
+        "level": "0 Out-of-Key Notes",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "The music stays firmly in key, contributing to its safe, consonant character."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_003"
+    }
+  },
+  {
+    "id": "vag_004",
+    "query": "the color orange",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "register_median_note_midi",
+        "level": "Register: Mid",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "The color orange is often associated with a warm, central register \u2014 not extreme highs or lows."
+      },
+      {
+        "concept": "dynamics_average_velocity",
+        "level": "Soft Velocity",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Orange evokes a mellow, gentle warmth rather than aggressive loudness."
+      },
+      {
+        "concept": "harmonic_imperfect_consonance_pct",
+        "level": "Present Imperfect Consonance",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Warm colors like orange often suggest rich, consonant harmonies (thirds/sixths) that are present but not overwhelming."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_004"
+    }
+  },
+  {
+    "id": "vag_005",
+    "query": "feels like Monday morning",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "dynamics_average_velocity",
+        "level": "Soft Velocity",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "A Monday-morning mood is low-energy and subdued, so the overall loudness should be quiet and gentle rather than aggressive."
+      },
+      {
+        "concept": "rhythmic_density_average_events_per_beat",
+        "level": "Moderately (not too) Sparse",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "The feeling is sluggish and unhurried, with plenty of space between events rather than busy, driving activity."
+      },
+      {
+        "concept": "register_median_note_midi",
+        "level": "Register: Low-Mid",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "A heavy, grounded, slightly downcast quality implies a lower central register rather than bright or high material."
+      },
+      {
+        "concept": "dynamics_intensity_trend",
+        "level": "Stable Intensity",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Monday morning feels flat and unvarying \u2014 no build-up or dramatic fade, just a steady low-level energy."
+      },
+      {
+        "concept": "metadata_scale_type",
+        "level": "Minor",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "The melancholic, 'blue' quality commonly associated with Monday mornings suggests a minor tonal color."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_005"
+    }
+  },
+  {
+    "id": "vag_006",
+    "query": "add some soup",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "texture_polyphonic_pct",
+        "level": "Present Chordal (3+ Notes)",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "\"Soup\" metaphorically suggests a thick mixture of many ingredients; in a musical context this maps to a chordal/polyphonic texture. The qualifier \"some\" indicates a moderate, non-dominant amount, matching the Present share band."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_006"
+    }
+  },
+  {
+    "id": "vag_007",
+    "query": "a little bit mysterious",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "tonality_out_of_key_notes",
+        "level": "1 Out-of-Key Note",
+        "importance": 5,
+        "fallback": "nearest",
+        "why": "A little bit mysterious suggests a subtle chromatic spice, a single note outside the diatonic scale to add ambiguity without losing tonality."
+      },
+      {
+        "concept": "harmonic_dissonance_pct",
+        "level": "Occasional Dissonance",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "Mysterious moods often use occasional dissonant intervals (seconds, sevenths, tritone) to create gentle tension, fitting the 'a little bit' qualifier as a light presence."
+      },
+      {
+        "concept": "tonality_prevalent_pitch_pct",
+        "level": "Loosely Following Tonal Anchor",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "A little mysterious implies a tonal center that is present but not too rigid \u2014 a slightly ambiguous, wandering quality rather than a strongly anchored one."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_007"
+    }
+  },
+  {
+    "id": "vag_008",
+    "query": "make it sound expensive",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "dynamics_velocity_spread",
+        "level": "Wide Dynamic Range",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "An expensive sound often implies polished, expressive dynamics with noticeable contrast between soft and loud passages."
+      },
+      {
+        "concept": "harmonic_imperfect_consonance_pct",
+        "level": "Primary Imperfect Consonance",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "Rich, warm harmony built on thirds and sixths contributes to a lush, high-end tonal character."
+      },
+      {
+        "concept": "texture_polyphonic_pct",
+        "level": "Primary Chordal (3+ Notes)",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "Full, chordal voicings give a premium, substantial feel rather than a thin or sparse texture."
+      },
+      {
+        "concept": "texture_avg_wide_gaps_per_burst",
+        "level": "Big Chordal Spread",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Open, widely spaced voicings add air and sophistication, often associated with expensive production."
+      },
+      {
+        "concept": "duration_long_profile",
+        "level": "Primary Long Duration",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "grid_macro_jitter",
+        "level": "Tight Macro Pocket",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Clean, locked timing suggests a carefully programmed or skillfully played high-end track."
+      },
+      {
+        "concept": "tonality_out_of_key_notes",
+        "level": "0 Out-of-Key Notes",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Consonant, in-key harmony contributes to a refined, expensive sound without harsh dissonance."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_008"
+    }
+  },
+  {
+    "id": "vag_009",
+    "query": "like a cat walking on the keyboard",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "tonality_out_of_key_notes",
+        "level": "4-5 Out-of-Key Notes",
+        "importance": 5,
+        "fallback": "nearest",
+        "why": "A cat walking on a keyboard produces random pitches, many of which fall outside any standard scale, implying heavy chromaticism."
+      },
+      {
+        "concept": "tonality_unique_pitches_count",
+        "level": "8+ Pitch Classes",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "Random key presses across the keyboard would use a wide variety of pitch classes, likely more than 8 distinct ones."
+      },
+      {
+        "concept": "melodic_intervals_absolute_median_semitones",
+        "level": "Angular / Leaping Melodic Motion",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "A cat's steps land on distant keys, creating large, angular leaps rather than stepwise motion."
+      },
+      {
+        "concept": "melodic_intervals_max_leap_semitones",
+        "level": "Contains Extreme Leaps (>= Octave)",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "The cat may jump across the keyboard, producing intervals of an octave or more."
+      },
+      {
+        "concept": "melodic_interval_vocabulary_count",
+        "level": "Highly Diverse Melodic Interval Palette",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "Random key presses generate a wide variety of interval sizes, making the interval vocabulary highly diverse."
+      },
+      {
+        "concept": "melodic_intervals_sequence_repetition_pct",
+        "level": "Varying Interval Patterns",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "A cat's movements are unpredictable and non-repetitive, so the melodic patterns constantly change."
+      },
+      {
+        "concept": "grid_macro_jitter",
+        "level": "Loose Macro Pocket",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "A cat's walking does not land on a rhythmic grid; the timing is loose and drifts freely."
+      },
+      {
+        "concept": "duration_short_profile",
+        "level": "Primary Short Duration",
+        "importance": 3,
+        "fallback": "down",
+        "why": ""
+      },
+      {
+        "concept": "rhythmic_density_average_events_per_beat",
+        "level": "Moderately (not too) Sparse",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "The cat produces occasional notes, not a dense stream, but not extremely sparse either\u2014a sparse, wandering feel."
+      },
+      {
+        "concept": "rhythmic_density_burstiness",
+        "level": "Variable Density",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "The cat might pause then hit several keys in quick succession, causing noticeable bursts in density."
+      },
+      {
+        "concept": "rhythmic_density_bar_to_bar_evolution",
+        "level": "Volatile Bar Event Density",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "The randomness of the cat's steps makes the number of notes vary drastically from one bar to the next."
+      },
+      {
+        "concept": "texture_pct_1_notes",
+        "level": "Primary 1 Notes",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "The cat's paw usually hits one key at a time, so the texture is primarily monophonic, though occasional clusters may occur."
+      },
+      {
+        "concept": "register_spread_semitones",
+        "level": "Wide Pitch Spread (3+ Octaves)",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "The cat may walk across a large portion of the keyboard, spanning more than three octaves."
+      },
+      {
+        "concept": "dynamics_velocity_spread",
+        "level": "Wide Dynamic Range",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "The force of the cat's steps varies greatly, causing a wide range of note velocities."
+      },
+      {
+        "concept": "tonality_prevalent_pitch_pct",
+        "level": "Straying From Tonal Anchor",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Because the notes are random, there is no clear tonal center; the pitch collection wanders freely."
+      },
+      {
+        "concept": "metadata_instrument_family",
+        "level": "Piano",
+        "importance": 1,
+        "fallback": "nearest",
+        "why": "The query mentions a keyboard, which typically corresponds to a piano instrument family."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_009"
+    }
+  },
+  {
+    "id": "vag_010",
+    "query": "more cozy",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "dynamics_average_velocity",
+        "level": "Soft Velocity",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "Cozy implies gentle, soft dynamics rather than loud or aggressive playing."
+      },
+      {
+        "concept": "harmonic_imperfect_consonance_pct",
+        "level": "Primary Imperfect Consonance",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "Cozy warmth comes from consonant, rich harmony dominated by thirds and sixths."
+      },
+      {
+        "concept": "duration_long_profile",
+        "level": "Primary Long Duration",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "register_median_note_midi",
+        "level": "Register: Mid",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "A cozy feel typically sits in a warm mid register, not too high or too low."
+      },
+      {
+        "concept": "texture_polyphonic_pct",
+        "level": "Primary Chordal (3+ Notes)",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Cozy implies chordal, full textures rather than sparse monophonic lines."
+      },
+      {
+        "concept": "rhythmic_density_average_events_per_beat",
+        "level": "Moderately (not too) Sparse",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Cozy music is calm and unhurried, favoring a relaxed, lightly active rhythm."
+      },
+      {
+        "concept": "tonality_out_of_key_notes",
+        "level": "0 Out-of-Key Notes",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Cozy consonance suggests staying strictly in key, avoiding chromatic tension."
+      },
+      {
+        "concept": "dynamics_velocity_spread",
+        "level": "Natural Dynamic Variance",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "A cozy performance feels naturally expressive with subtle dynamic shifts, not flat or robotic."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_010"
+    }
+  },
+  {
+    "id": "vag_011",
+    "query": "a little bit diagonal",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "melodic_intervals_absolute_median_semitones",
+        "level": "Stepwise / Scalar Melodic Motion",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "'A little bit diagonal' suggests a gently sloped melodic contour, which in pitch-time terms corresponds to small, stepwise intervals rather than leaps."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_011"
+    }
+  },
+  {
+    "id": "vag_012",
+    "query": "like being underwater",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "duration_long_profile",
+        "level": "Primary Long Duration",
+        "importance": 5,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "register_median_note_midi",
+        "level": "Register: Low-Mid",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "The muffled, deep character of being underwater suggests the material sits in a lower central register."
+      },
+      {
+        "concept": "dynamics_average_velocity",
+        "level": "Soft Velocity",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "Submerged sounds feel muted and gentle, implying a consistently soft dynamic level."
+      },
+      {
+        "concept": "rhythmic_density_average_events_per_beat",
+        "level": "Moderately (not too) Sparse",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "Underwater imagery evokes a calm, unhurried atmosphere with few events."
+      },
+      {
+        "concept": "spacing_long_profile",
+        "level": "Significant Long Spacing",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "texture_polyphonic_pct",
+        "level": "Significant Chordal (3+ Notes)",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "Ambient underwater textures are often built from sustained chordal pads."
+      },
+      {
+        "concept": "grid_macro_jitter",
+        "level": "Organic Macro Pocket",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "A floating underwater feel implies natural, slightly loose timing rather than rigid quantization."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_012"
+    }
+  },
+  {
+    "id": "vag_013",
+    "query": "it should feel soft",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "dynamics_average_velocity",
+        "level": "Soft Velocity",
+        "importance": 5,
+        "fallback": "nearest",
+        "why": "The query asks for a soft feel, which directly maps to a lower overall velocity (loudness) in the performance."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_013"
+    }
+  },
+  {
+    "id": "vag_014",
+    "query": "add some magic",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "register_median_note_midi",
+        "level": "Register: High",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "Magic is typically conveyed by high, sparkly, ethereal textures that sit in the treble register."
+      },
+      {
+        "concept": "dynamics_average_velocity",
+        "level": "Soft Velocity",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "A magical quality implies a delicate, light, gentle performance rather than loud or aggressive playing."
+      },
+      {
+        "concept": "duration_long_profile",
+        "level": "Present Long Duration",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "tonality_out_of_key_notes",
+        "level": "0 Out-of-Key Notes",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Whimsical, magical music tends to stay consonant and in-key, avoiding harsh chromatic tension."
+      },
+      {
+        "concept": "metadata_instrument_family",
+        "level": "Tonal Percussion",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Celesta or music-box style tonal percussion is the archetypal 'magic' timbre \u2014 bell-like and shimmering."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_014"
+    }
+  },
+  {
+    "id": "vag_015",
+    "query": "like a thunderstorm",
+    "family_classification": "drums",
+    "targets": [
+      {
+        "concept": "drum_hats_cymbals_rhythmic_density_average_events_per_beat",
+        "level": "Busy",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "Rain in a thunderstorm is a steady, busy patter \u2014 constant activity on the hats/cymbals."
+      },
+      {
+        "concept": "drum_hats_cymbals_spacing_16th_share",
+        "level": "Primary 16th Note Spacing",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "The rain-like cymbal patter is built on tight 16th-note gaps."
+      },
+      {
+        "concept": "drum_kick_rhythmic_density_average_events_per_beat",
+        "level": "Moderately (not too) Sparse",
+        "importance": 5,
+        "fallback": "nearest",
+        "why": "Thunder claps are low, intermittent booms rather than constant hits."
+      },
+      {
+        "concept": "drum_toms_others_rhythmic_density_average_events_per_beat",
+        "level": "Moderately (not too) Sparse",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "Rumbling thunder rolls through toms in spaced, powerful gestures."
+      },
+      {
+        "concept": "drum_kick_dynamics_average_velocity",
+        "level": "Hard/Aggressive Velocity",
+        "importance": 5,
+        "fallback": "nearest",
+        "why": "Thunder is loud and forceful \u2014 deep kick hits with heavy impact."
+      },
+      {
+        "concept": "drum_toms_others_dynamics_average_velocity",
+        "level": "Hard/Aggressive Velocity",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "The rumble of thunder is delivered with high energy."
+      },
+      {
+        "concept": "drum_hats_cymbals_dynamics_accents_presence",
+        "level": "Contains Dynamic Accents",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "Lightning strikes read as sudden, bright cymbal accents cutting through the rain."
+      },
+      {
+        "concept": "drum_kick_rhythmic_density_burstiness",
+        "level": "Volatile Density",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "Thunderclaps are sudden bursts that spike above the steady rain baseline."
+      },
+      {
+        "concept": "drum_toms_others_rhythmic_density_burstiness",
+        "level": "Volatile Density",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "The thunder rolls erupt in peaks rather than a constant stream."
+      },
+      {
+        "concept": "drum_kick_rhythmic_density_bar_to_bar_evolution",
+        "level": "Variable Bar Event Density",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "A storm's rumble changes drastically from moment to moment \u2014 no two bars feel identical."
+      },
+      {
+        "concept": "drum_toms_others_rhythmic_density_trend",
+        "level": "Rising Density / Speeding Up",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "The storm builds toward a peak before the next thunderclap."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_015"
+    }
+  },
+  {
+    "id": "vag_016",
+    "query": "make it fluffy",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "dynamics_average_velocity",
+        "level": "Soft Velocity",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "Fluffy implies a soft, gentle sound rather than loud or aggressive, so overall soft velocity is a core interpretation."
+      },
+      {
+        "concept": "register_median_note_midi",
+        "level": "Register: High",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "Fluffy sounds often evoke airy, bright textures that sit in a high register, shimmering above the mid-range."
+      },
+      {
+        "concept": "duration_long_profile",
+        "level": "Significant Long Duration",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "rhythmic_density_average_events_per_beat",
+        "level": "Moderately (not too) Sparse",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Fluffy feels light and airy, not busy or frantic \u2014 a moderately sparse density supports an open, soft texture."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_016"
+    }
+  },
+  {
+    "id": "vag_017",
+    "query": "a bit of nothing",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "rhythmic_density_average_events_per_beat",
+        "level": "Minimalist/Drone-like",
+        "importance": 5,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "spacing_long_profile",
+        "level": "Primary Long Spacing",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "dynamics_average_velocity",
+        "level": "Ghost/Whisper Velocity",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "spacing_max_silence_beats",
+        "level": "Long Max Silence (1-2 Bars)",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": ""
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_017"
+    }
+  },
+  {
+    "id": "vag_018",
+    "query": "like a hot summer day",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "register_median_note_midi",
+        "level": "Register: Mid",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "A hot summer day evokes a warm, comfortable mid-register ambience, not extreme highs or lows."
+      },
+      {
+        "concept": "dynamics_average_velocity",
+        "level": "Soft Velocity",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "The lazy, dreamy feel of a summer day suggests gentle, relaxed dynamics rather than aggressive loudness."
+      },
+      {
+        "concept": "duration_long_profile",
+        "level": "Significant Long Duration",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "rhythmic_density_average_events_per_beat",
+        "level": "Moderately (not too) Sparse",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "A calm, open atmosphere implies light activity with space between notes, not busy or frantic rhythm."
+      },
+      {
+        "concept": "harmonic_imperfect_consonance_pct",
+        "level": "Significant Imperfect Consonance",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Warmth and pleasantness map to consonant thirds and sixths, giving a rich, tonal character."
+      },
+      {
+        "concept": "tonality_out_of_key_notes",
+        "level": "0 Out-of-Key Notes",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "A bright, easy summer mood suggests strictly in-key, consonant harmony with no chromatic spice."
+      },
+      {
+        "concept": "grid_micro_jitter",
+        "level": "Organic Micro Execution",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "A natural, humanized timing feel fits the relaxed, organic vibe of a summer day."
+      },
+      {
+        "concept": "metadata_scale_type",
+        "level": "Major",
+        "importance": 1,
+        "fallback": "nearest",
+        "why": "A hot summer day is typically sunny and positive, associating with a major tonality."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_018"
+    }
+  },
+  {
+    "id": "vag_019",
+    "query": "more metallic",
+    "family_classification": "drums",
+    "targets": [
+      {
+        "concept": "drum_prevalence_hats_cymbals",
+        "level": "Primary Hats/Cymbals",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "The query 'more metallic' refers to the bright, metallic timbre of cymbals and hi-hats. This implies a strong presence of the hats/cymbals family within the drum kit, so the prevalence of this family should be elevated."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_019"
+    }
+  },
+  {
+    "id": "vag_020",
+    "query": "it's giving breakfast vibes",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "metadata_scale_type",
+        "level": "Major",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "Breakfast vibes evoke a cheerful, bright, uplifting morning mood, which is strongly associated with the major mode."
+      },
+      {
+        "concept": "tonality_out_of_key_notes",
+        "level": "0 Out-of-Key Notes",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "A consonant, diatonic pitch collection supports the pleasant, carefree character of breakfast vibes."
+      },
+      {
+        "concept": "dynamics_average_velocity",
+        "level": "Balanced / Mixed Velocity",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "An easygoing vibe suggests moderate, even loudness \u2014 not aggressive, not overly soft."
+      },
+      {
+        "concept": "register_median_note_midi",
+        "level": "Register: Upper-Mid",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Morning-inspired music often sits in a bright, airy upper-mid register, adding lightness and warmth."
+      },
+      {
+        "concept": "harmonic_imperfect_consonance_pct",
+        "level": "Primary Imperfect Consonance",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Warm, rich thirds and sixths create a cozy, inviting harmonic feel \u2014 fitting breakfast vibes."
+      },
+      {
+        "concept": "spacing_medium_profile",
+        "level": "Significant Medium Spacing",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": ""
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_020"
+    }
+  },
+  {
+    "id": "vag_021",
+    "query": "like a crowded market",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "texture_polyphonic_pct",
+        "level": "Defining Chordal (3+ Notes)",
+        "importance": 5,
+        "fallback": "nearest",
+        "why": "A crowded market implies many simultaneous sounds and voices, i.e., dense chordal/polyphonic texture."
+      },
+      {
+        "concept": "texture_pct_6plus_notes",
+        "level": "Significant 6+ Notes",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "The chaotic density of a market suggests moments with very thick voicings containing six or more notes at once."
+      },
+      {
+        "concept": "rhythmic_density_average_events_per_beat",
+        "level": "Busy",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "A crowded market is full of activity and constant events, matching a busy average event density."
+      },
+      {
+        "concept": "spacing_short_profile",
+        "level": "Primary Short Spacing",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "duration_short_profile",
+        "level": "Significant Short Duration",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "tonality_unique_pitches_count",
+        "level": "8+ Pitch Classes",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "The cacophony of a market draws on many different pitches, suggesting a wide, chromatic pitch vocabulary."
+      },
+      {
+        "concept": "harmonic_dissonance_pct",
+        "level": "Present Dissonance",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Clashing, dissonant intervals occur when many different sounds overlap, reflecting the tense, chaotic market atmosphere."
+      },
+      {
+        "concept": "dynamics_average_velocity",
+        "level": "Hard/Aggressive Velocity",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "A crowded market is loud and energetic, with consistently strong volume levels."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_021"
+    }
+  },
+  {
+    "id": "vag_022",
+    "query": "make it snappier but also not",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "duration_short_profile",
+        "level": "Significant Short Duration",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "spacing_short_profile",
+        "level": "Present Short Spacing",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "rhythmic_density_average_events_per_beat",
+        "level": "Moderately (not too) Busy",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "'But also not' signals avoiding an overly frantic or dense result, so activity should stay at a moderate, controlled level."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_022"
+    }
+  },
+  {
+    "id": "vag_023",
+    "query": "a bit of everything",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "rhythmic_density_average_events_per_beat",
+        "level": "Moderately (not too) Busy",
+        "importance": 5,
+        "fallback": "nearest",
+        "why": "\"A bit of everything\" implies moderate rhythmic activity \u2014 not frantic, not sparse, a balanced middle ground."
+      },
+      {
+        "concept": "texture_polyphonic_pct",
+        "level": "Present Chordal (3+ Notes)",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "A mix of textures: some single-note lines and some chords; chordal material present but not dominant."
+      },
+      {
+        "concept": "dynamics_velocity_spread",
+        "level": "Natural Dynamic Variance",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "Natural dynamic variation \u2014 a bit of loud and soft, expressive but not extreme in either direction."
+      },
+      {
+        "concept": "dynamics_average_velocity",
+        "level": "Balanced / Mixed Velocity",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "Balanced overall loudness \u2014 neither aggressive nor whisper-quiet."
+      },
+      {
+        "concept": "rhythmic_density_bar_to_bar_evolution",
+        "level": "Lightly Varying Bar Event Density",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "A bit of variation from bar to bar without chaos \u2014 some change, some consistency."
+      },
+      {
+        "concept": "register_median_note_midi",
+        "level": "Register: Mid",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "A neutral, central register placement \u2014 accessible and well-rounded."
+      },
+      {
+        "concept": "tonality_unique_pitches_count",
+        "level": "5-7 Pitch Classes",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "A scale-sized, moderately varied pitch vocabulary \u2014 some tonal variety without heavy chromaticism."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_023"
+    }
+  },
+  {
+    "id": "vag_024",
+    "query": "like a dream I can't remember",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "dynamics_average_velocity",
+        "level": "Soft Velocity",
+        "importance": 5,
+        "fallback": "nearest",
+        "why": "Dreamlike implies soft, gentle, low-effort playing rather than aggressive loudness."
+      },
+      {
+        "concept": "duration_long_profile",
+        "level": "Primary Long Duration",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "rhythmic_density_average_events_per_beat",
+        "level": "Sparse",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": "A dreamy, half-remembered feel is sparse and airy, not busy or frantic."
+      },
+      {
+        "concept": "dynamics_intensity_trend",
+        "level": "Fading Intensity",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "'Can't remember' suggests the sound dissolves or fades away rather than builds."
+      },
+      {
+        "concept": "register_median_note_midi",
+        "level": "Register: High",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Dreamlike textures often live in a higher, airy register to feel weightless."
+      },
+      {
+        "concept": "tonality_prevalent_pitch_pct",
+        "level": "Loosely Following Tonal Anchor",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "A vague, dreamlike memory implies a loose or wandering tonal center rather than a firmly anchored one."
+      },
+      {
+        "concept": "texture_polyphonic_pct",
+        "level": "Primary Chordal (3+ Notes)",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Sustained dreamy textures are typically chordal/pad-like rather than a single monophonic line."
+      },
+      {
+        "concept": "spacing_long_profile",
+        "level": "Present Long Spacing",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": ""
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_024"
+    }
+  },
+  {
+    "id": "vag_025",
+    "query": "the texture of velvet",
+    "family_classification": "pitched",
+    "targets": [
+      {
+        "concept": "dynamics_average_velocity",
+        "level": "Soft Velocity",
+        "importance": 5,
+        "fallback": "nearest",
+        "why": "Velvet suggests a soft, gentle sound quality \u2014 consistently quiet, without any harsh or aggressive attack."
+      },
+      {
+        "concept": "duration_long_profile",
+        "level": "Primary Long Duration",
+        "importance": 4,
+        "fallback": "nearest",
+        "why": ""
+      },
+      {
+        "concept": "dynamics_accents_presence",
+        "level": "No Dynamic Accents",
+        "importance": 3,
+        "fallback": "nearest",
+        "why": "Velvet is smooth and even, with no pronounced spike accents that would break the polished surface."
+      },
+      {
+        "concept": "harmonic_imperfect_consonance_pct",
+        "level": "Primary Imperfect Consonance",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Warm, rich consonance from thirds and sixths fits the warm, luxurious character of velvet."
+      },
+      {
+        "concept": "register_median_note_midi",
+        "level": "Register: Mid",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "Velvet-like tones typically live in a warm, central mid register rather than extreme high or low ranges."
+      },
+      {
+        "concept": "texture_polyphonic_pct",
+        "level": "Significant Chordal (3+ Notes)",
+        "importance": 2,
+        "fallback": "nearest",
+        "why": "A velvet texture suggests layered, full voicings rather than a thin, exposed single line."
+      },
+      {
+        "concept": "melodic_intervals_absolute_median_semitones",
+        "level": "Stepwise / Scalar Melodic Motion",
+        "importance": 1,
+        "fallback": "nearest",
+        "why": "Smoothness implies stepwise, non-leaping melodic motion without angular jumps."
+      }
+    ],
+    "scoring": {
+      "overall": null,
+      "creativity": null,
+      "justification": null,
+      "family": null,
+      "notes": "",
+      "id": "vag_025"
+    }
+  }
+]

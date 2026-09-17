@@ -1,0 +1,690 @@
+{
+  "drum_hats_cymbals_dynamics_intensity_trend": {
+    "direction": "high",
+    "example": "the hats/cymbals the volume increases gradually through the track"
+  },
+  "drum_hats_cymbals_grid_attempt_pct_beat3": {
+    "direction": "high",
+    "example": "the hats/cymbals beat three receives a strong attack"
+  },
+  "drum_hats_cymbals_grid_success_pct_2and4": {
+    "direction": "high",
+    "example": "the hats/cymbals the two and four positions land with perfect accuracy"
+  },
+  "drum_hats_cymbals_grid_success_pct_offbeat": {
+    "direction": "high",
+    "example": "the hats/cymbals every offbeat lands in the pocket"
+  },
+  "drum_hats_cymbals_rhythmic_density_trend": {
+    "direction": "high",
+    "example": "the hats/cymbals density rises toward the end"
+  },
+  "drum_hats_cymbals_spacing_8th_share": {
+    "direction": "high",
+    "example": "the hats/cymbals attacks land on every eighth note"
+  },
+  "drum_hats_cymbals_spacing_max_silence_beats": {
+    "direction": "high",
+    "example": "the hats/cymbals a long break with nothing ringing"
+  },
+  "drum_hats_cymbals_spacing_whole_share": {
+    "direction": "high",
+    "example": "the hats/cymbals whole note gap between each attack"
+  },
+  "drum_kick_dynamics_accents_presence": {
+    "direction": "high",
+    "example": "the kick there are strong accent hits that stand out"
+  },
+  "drum_kick_dynamics_velocity_spread": {
+    "direction": "high",
+    "example": "the kick the dynamics have a very wide range"
+  },
+  "drum_kick_grid_attempt_pct_odd1": {
+    "direction": "high",
+    "example": "the kick the odd bar downbeat is hit consistently"
+  },
+  "drum_kick_grid_success_pct_even1": {
+    "direction": "high",
+    "example": "the kick the even bar downbeats are accurate"
+  },
+  "drum_kick_grid_micro_jitter": {
+    "direction": "high",
+    "example": "the kick humanized natural feel"
+  },
+  "drum_kick_rhythmic_density_bar_to_bar_evolution": {
+    "direction": "high",
+    "example": "the kick rhythm changes drastically from bar to bar"
+  },
+  "drum_kick_spacing_16th_share": {
+    "direction": "high",
+    "example": "the kick steady 16th note spacing between attacks"
+  },
+  "drum_kick_spacing_half_share": {
+    "direction": "high",
+    "example": "the kick attacks every half note creating an open feel"
+  },
+  "drum_kick_spacing_quarter_share": {
+    "direction": "high",
+    "example": "the kick notes are spaced a quarter note apart"
+  },
+  "drum_prevalence_hats_cymbals_closed_hat": {
+    "direction": "high",
+    "example": "the Closed Hat is prominent"
+  },
+  "drum_prevalence_hats_cymbals_ride_1": {
+    "direction": "high",
+    "example": "the Ride 1 is prominent"
+  },
+  "drum_prevalence_kick_kick_1": {
+    "direction": "high",
+    "example": "the Kick 1 is prominent"
+  },
+  "drum_prevalence_snare_clap_rimshot": {
+    "direction": "high",
+    "example": "the Rimshot is prominent"
+  },
+  "drum_prevalence_snare_clap_snare_1": {
+    "direction": "high",
+    "example": "the Snare 1 is prominent"
+  },
+  "drum_prevalence_toms_others_high_floor_tom": {
+    "direction": "high",
+    "example": "the High Floor Tom is prominent"
+  },
+  "drum_snare_clap_dynamics_average_velocity": {
+    "direction": "high",
+    "example": "the snare/clap the whole performance is very loud and aggressive"
+  },
+  "drum_snare_clap_grid_attempt_pct_2and4": {
+    "direction": "high",
+    "example": "the snare/clap the two and four positions are attacked very consistently"
+  },
+  "drum_snare_clap_grid_attempt_pct_offbeat": {
+    "direction": "high",
+    "example": "the snare/clap the offbeat upbeats are accented regularly"
+  },
+  "drum_snare_clap_grid_success_pct_odd1": {
+    "direction": "high",
+    "example": "the snare/clap the odd bar downbeats are landed perfectly"
+  },
+  "drum_snare_clap_rhythmic_density_burstiness": {
+    "direction": "mid",
+    "example": "the snare/clap steady even density"
+  },
+  "drum_snare_clap_spacing_32nd_share": {
+    "direction": "high",
+    "example": "the snare/clap notes cluster at the 32nd note level"
+  },
+  "drum_snare_clap_spacing_long_profile": {
+    "direction": "high",
+    "example": "the snare/clap the general onset spacing profile is long and spread out"
+  },
+  "drum_snare_clap_spacing_short_profile": {
+    "direction": "high",
+    "example": "the snare/clap the general onset spacing profile is short and compact"
+  },
+  "drum_toms_others_dynamics_max_velocity": {
+    "direction": "high",
+    "example": "the toms the single loudest peaks at maximum velocity"
+  },
+  "drum_toms_others_grid_attempt_pct_even1": {
+    "direction": "high",
+    "example": "the toms the even bar downbeat is attacked regularly"
+  },
+  "drum_toms_others_grid_success_pct_beat3": {
+    "direction": "high",
+    "example": "the toms each beat three lands on the grid"
+  },
+  "drum_toms_others_grid_macro_jitter": {
+    "direction": "low",
+    "example": "the toms the timing is very tight and locked"
+  },
+  "drum_toms_others_rhythmic_density_average_events_per_beat": {
+    "direction": "high",
+    "example": "the toms very busy frantic rhythm"
+  },
+  "drum_toms_others_rhythmic_density_turnaround_shift": {
+    "direction": "high",
+    "example": "the toms drum fill at the end of the phrase"
+  },
+  "drum_toms_others_spacing_above_whole_share": {
+    "direction": "high",
+    "example": "the toms gaps longer than a whole measure"
+  },
+  "drum_toms_others_spacing_medium_profile": {
+    "direction": "mid",
+    "example": "the toms the gaps between attacks are moderate in length"
+  },
+  "duration_16th_share": {
+    "direction": "high",
+    "example": "note lengths around a 16th note"
+  },
+  "duration_32nd_share": {
+    "direction": "high",
+    "example": "notes are very short 32nd note bursts"
+  },
+  "duration_8th_share": {
+    "direction": "high",
+    "example": "each note lasts an eighth note"
+  },
+  "duration_above_whole_share": {
+    "direction": "high",
+    "example": "notes sustain longer than a measure"
+  },
+  "duration_half_share": {
+    "direction": "high",
+    "example": "notes are held for a half note"
+  },
+  "duration_long_profile": {
+    "direction": "high",
+    "example": "most notes are sustained a long time"
+  },
+  "duration_max_length_beats": {
+    "direction": "high",
+    "example": "the longest note is very extended"
+  },
+  "duration_medium_profile": {
+    "direction": "mid",
+    "example": "note lengths are moderate"
+  },
+  "duration_quarter_share": {
+    "direction": "high",
+    "example": "notes sustain for a quarter note"
+  },
+  "duration_short_profile": {
+    "direction": "high",
+    "example": "overall note durations are short staccato"
+  },
+  "duration_whole_share": {
+    "direction": "high",
+    "example": "notes sustain a full whole note"
+  },
+  "dynamics_accents_presence": {
+    "direction": "high",
+    "example": "there are strong accent hits that stand out"
+  },
+  "dynamics_average_velocity": {
+    "direction": "high",
+    "example": "the whole performance is very loud and aggressive"
+  },
+  "dynamics_intensity_trend": {
+    "direction": "high",
+    "example": "the volume increases gradually through the track"
+  },
+  "dynamics_max_velocity": {
+    "direction": "high",
+    "example": "the single loudest peaks at maximum velocity"
+  },
+  "dynamics_velocity_spread": {
+    "direction": "high",
+    "example": "the dynamics have a very wide range"
+  },
+  "grid_attempt_pct_2and4": {
+    "direction": "high",
+    "example": "the two and four positions are attacked very consistently"
+  },
+  "grid_attempt_pct_beat3": {
+    "direction": "high",
+    "example": "beat three receives a strong attack"
+  },
+  "grid_attempt_pct_even1": {
+    "direction": "high",
+    "example": "the even bar downbeat is attacked regularly"
+  },
+  "grid_attempt_pct_odd1": {
+    "direction": "high",
+    "example": "the odd bar downbeat is hit consistently"
+  },
+  "grid_attempt_pct_offbeat": {
+    "direction": "high",
+    "example": "the offbeat upbeats are accented regularly"
+  },
+  "grid_success_pct_2and4": {
+    "direction": "high",
+    "example": "the two and four positions land with perfect accuracy"
+  },
+  "grid_success_pct_beat3": {
+    "direction": "high",
+    "example": "each beat three lands on the grid"
+  },
+  "grid_success_pct_even1": {
+    "direction": "high",
+    "example": "the even bar downbeats are accurate"
+  },
+  "grid_success_pct_odd1": {
+    "direction": "high",
+    "example": "the odd bar downbeats are landed perfectly"
+  },
+  "grid_success_pct_offbeat": {
+    "direction": "high",
+    "example": "every offbeat lands in the pocket"
+  },
+  "grid_macro_jitter": {
+    "direction": "low",
+    "example": "the timing is very tight and locked"
+  },
+  "grid_micro_jitter": {
+    "direction": "high",
+    "example": "humanized natural feel"
+  },
+  "harmonic_dissonance_pct": {
+    "direction": "high",
+    "example": "very dissonant tense harmony"
+  },
+  "harmonic_imperfect_consonance_pct": {
+    "direction": "high",
+    "example": "warm rich thirds and sixths harmony"
+  },
+  "harmonic_perfect_consonance_pct": {
+    "direction": "high",
+    "example": "the vertical harmony is mostly perfect consonances"
+  },
+  "melodic_interval_vocabulary_count": {
+    "direction": "low",
+    "example": "focused narrow interval palette"
+  },
+  "melodic_intervals_absolute_median_semitones": {
+    "direction": "low",
+    "example": "lots of stepwise scalar motion"
+  },
+  "melodic_intervals_max_leap_semitones": {
+    "direction": "high",
+    "example": "melody has huge octave leaps"
+  },
+  "melodic_intervals_pct_ascending": {
+    "direction": "high",
+    "example": "melody rises upward throughout"
+  },
+  "melodic_intervals_pct_descending": {
+    "direction": "high",
+    "example": "melody falls downward throughout"
+  },
+  "melodic_intervals_sequence_repetition_pct": {
+    "direction": "high",
+    "example": "repetitive melodic patterns"
+  },
+  "metadata_instrument_family": {
+    "example": "synth lead",
+    "expected_level": "Synth Lead"
+  },
+  "metadata_midi_program_number": {
+    "example": "acoustic grand piano",
+    "expected_level": "0"
+  },
+  "metadata_note_count": {
+    "example": "a lot of notes in the loop",
+    "expected_level": "Value"
+  },
+  "metadata_root_key": {
+    "example": "the tonal center is the note F",
+    "expected_level": "F"
+  },
+  "metadata_scale_type": {
+    "example": "the key signature indicates major mode",
+    "expected_level": "Major"
+  },
+  "metadata_time_sig_den": {
+    "example": "quarter note as the beat unit",
+    "expected_level": "4"
+  },
+  "metadata_time_sig_num": {
+    "example": "four beats to the measure",
+    "expected_level": "4"
+  },
+  "profile_harmonic_intervals_pct_00_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly unison"
+  },
+  "profile_harmonic_intervals_pct_01_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly minor second"
+  },
+  "profile_harmonic_intervals_pct_02_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly major second"
+  },
+  "profile_harmonic_intervals_pct_03_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly minor third"
+  },
+  "profile_harmonic_intervals_pct_04_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly major third"
+  },
+  "profile_harmonic_intervals_pct_05_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly perfect fourth"
+  },
+  "profile_harmonic_intervals_pct_06_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly tritone / augmented fourth / diminished fifth"
+  },
+  "profile_harmonic_intervals_pct_07_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly perfect fifth"
+  },
+  "profile_harmonic_intervals_pct_08_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly minor sixth"
+  },
+  "profile_harmonic_intervals_pct_09_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly major sixth"
+  },
+  "profile_harmonic_intervals_pct_10_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly minor seventh"
+  },
+  "profile_harmonic_intervals_pct_11_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly major seventh"
+  },
+  "profile_harmonic_intervals_pct_12_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly octave"
+  },
+  "profile_harmonic_intervals_pct_13_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly minor ninth"
+  },
+  "profile_harmonic_intervals_pct_14_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly major ninth"
+  },
+  "profile_harmonic_intervals_pct_15_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly minor tenth"
+  },
+  "profile_harmonic_intervals_pct_16_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly major tenth"
+  },
+  "profile_harmonic_intervals_pct_17_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly eleventh"
+  },
+  "profile_harmonic_intervals_pct_18_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly augmented eleventh"
+  },
+  "profile_harmonic_intervals_pct_19_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly twelfth / perfect twelfth"
+  },
+  "profile_harmonic_intervals_pct_20_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly minor thirteenth"
+  },
+  "profile_harmonic_intervals_pct_21_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly major thirteenth"
+  },
+  "profile_harmonic_intervals_pct_22_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly minor fourteenth"
+  },
+  "profile_harmonic_intervals_pct_23_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly major fourteenth"
+  },
+  "profile_harmonic_intervals_pct_24_semitones": {
+    "direction": "high",
+    "example": "vertical intervals are mostly double octave / fifteenth"
+  },
+  "profile_melodic_intervals_pct_asc_10_semitones": {
+    "direction": "high",
+    "example": "melody mostly leaps up by minor seventh"
+  },
+  "profile_melodic_intervals_pct_asc_11_semitones": {
+    "direction": "high",
+    "example": "melody mostly leaps up by major seventh"
+  },
+  "profile_melodic_intervals_pct_asc_12_semitones": {
+    "direction": "high",
+    "example": "melody mostly leaps up by octave"
+  },
+  "profile_melodic_intervals_pct_asc_13plus_semitones": {
+    "direction": "high",
+    "example": "huge upward leaps beyond an octave"
+  },
+  "profile_melodic_intervals_pct_asc_1_semitones": {
+    "direction": "high",
+    "example": "melody mostly leaps up by minor second"
+  },
+  "profile_melodic_intervals_pct_asc_2_semitones": {
+    "direction": "high",
+    "example": "melody mostly leaps up by major second"
+  },
+  "profile_melodic_intervals_pct_asc_3_semitones": {
+    "direction": "high",
+    "example": "melody mostly leaps up by minor third"
+  },
+  "profile_melodic_intervals_pct_asc_4_semitones": {
+    "direction": "high",
+    "example": "melody mostly leaps up by major third"
+  },
+  "profile_melodic_intervals_pct_asc_5_semitones": {
+    "direction": "high",
+    "example": "melody mostly leaps up by perfect fourth"
+  },
+  "profile_melodic_intervals_pct_asc_6_semitones": {
+    "direction": "high",
+    "example": "melody mostly leaps up by tritone"
+  },
+  "profile_melodic_intervals_pct_asc_7_semitones": {
+    "direction": "high",
+    "example": "melody mostly leaps up by perfect fifth"
+  },
+  "profile_melodic_intervals_pct_asc_8_semitones": {
+    "direction": "high",
+    "example": "melody mostly leaps up by minor sixth"
+  },
+  "profile_melodic_intervals_pct_asc_9_semitones": {
+    "direction": "high",
+    "example": "melody mostly leaps up by major sixth"
+  },
+  "profile_melodic_intervals_pct_desc_10_semitones": {
+    "direction": "high",
+    "example": "melody mostly falls down by minor seventh"
+  },
+  "profile_melodic_intervals_pct_desc_11_semitones": {
+    "direction": "high",
+    "example": "melody mostly falls down by major seventh"
+  },
+  "profile_melodic_intervals_pct_desc_12_semitones": {
+    "direction": "high",
+    "example": "melody mostly falls down by octave"
+  },
+  "profile_melodic_intervals_pct_desc_13plus_semitones": {
+    "direction": "high",
+    "example": "huge downward leaps beyond an octave"
+  },
+  "profile_melodic_intervals_pct_desc_1_semitones": {
+    "direction": "high",
+    "example": "melody mostly falls down by minor second"
+  },
+  "profile_melodic_intervals_pct_desc_2_semitones": {
+    "direction": "high",
+    "example": "melody mostly falls down by major second"
+  },
+  "profile_melodic_intervals_pct_desc_3_semitones": {
+    "direction": "high",
+    "example": "melody mostly falls down by minor third"
+  },
+  "profile_melodic_intervals_pct_desc_4_semitones": {
+    "direction": "high",
+    "example": "melody mostly falls down by major third"
+  },
+  "profile_melodic_intervals_pct_desc_5_semitones": {
+    "direction": "high",
+    "example": "melody mostly falls down by perfect fourth"
+  },
+  "profile_melodic_intervals_pct_desc_6_semitones": {
+    "direction": "high",
+    "example": "melody mostly falls down by tritone"
+  },
+  "profile_melodic_intervals_pct_desc_7_semitones": {
+    "direction": "high",
+    "example": "melody mostly falls down by perfect fifth"
+  },
+  "profile_melodic_intervals_pct_desc_8_semitones": {
+    "direction": "high",
+    "example": "melody mostly falls down by minor sixth"
+  },
+  "profile_melodic_intervals_pct_desc_9_semitones": {
+    "direction": "high",
+    "example": "melody mostly falls down by major sixth"
+  },
+  "profile_melodic_intervals_pct_static": {
+    "direction": "high",
+    "example": "melody restates the same note"
+  },
+  "register_boundary_shift_semitones": {
+    "direction": "high",
+    "example": "register shifts dramatically"
+  },
+  "register_highest_note_midi": {
+    "direction": "high",
+    "example": "reaching the soprano range"
+  },
+  "register_lowest_note_midi": {
+    "direction": "low",
+    "example": "dropping to deep bass notes"
+  },
+  "register_median_note_midi": {
+    "direction": "mid",
+    "example": "sits in the mid register"
+  },
+  "register_spread_semitones": {
+    "direction": "low",
+    "example": "very narrow focused range"
+  },
+  "rhythmic_density_average_events_per_beat": {
+    "direction": "high",
+    "example": "very busy frantic rhythm"
+  },
+  "rhythmic_density_bar_to_bar_evolution": {
+    "direction": "high",
+    "example": "rhythm changes drastically from bar to bar"
+  },
+  "rhythmic_density_burstiness": {
+    "direction": "mid",
+    "example": "steady even density"
+  },
+  "rhythmic_density_trend": {
+    "direction": "high",
+    "example": "density rises toward the end"
+  },
+  "rhythmic_density_turnaround_shift": {
+    "direction": "high",
+    "example": "a fill at the end of the phrase"
+  },
+  "spacing_16th_share": {
+    "direction": "high",
+    "example": "steady 16th note spacing between attacks"
+  },
+  "spacing_32nd_share": {
+    "direction": "high",
+    "example": "notes cluster at the 32nd note level"
+  },
+  "spacing_8th_share": {
+    "direction": "high",
+    "example": "attacks land on every eighth note"
+  },
+  "spacing_above_whole_share": {
+    "direction": "high",
+    "example": "gaps longer than a whole measure"
+  },
+  "spacing_half_share": {
+    "direction": "high",
+    "example": "attacks every half note creating an open feel"
+  },
+  "spacing_long_profile": {
+    "direction": "high",
+    "example": "the general onset spacing profile is long and spread out"
+  },
+  "spacing_max_silence_beats": {
+    "direction": "high",
+    "example": "a long break with nothing ringing"
+  },
+  "spacing_medium_profile": {
+    "direction": "mid",
+    "example": "the gaps between attacks are moderate in length"
+  },
+  "spacing_quarter_share": {
+    "direction": "high",
+    "example": "notes are spaced a quarter note apart"
+  },
+  "spacing_short_profile": {
+    "direction": "high",
+    "example": "the general onset spacing profile is short and compact"
+  },
+  "spacing_whole_share": {
+    "direction": "high",
+    "example": "whole note gap between each attack"
+  },
+  "texture_avg_wide_gaps_per_burst": {
+    "direction": "high",
+    "example": "wide open chord voicings"
+  },
+  "texture_pct_1_notes": {
+    "direction": "high",
+    "example": "texture is mostly single notes"
+  },
+  "texture_pct_2_notes": {
+    "direction": "high",
+    "example": "texture is mostly dyads two notes"
+  },
+  "texture_pct_3_notes": {
+    "direction": "high",
+    "example": "chords tend to have three notes"
+  },
+  "texture_pct_4_notes": {
+    "direction": "high",
+    "example": "most chords have four notes"
+  },
+  "texture_pct_5_notes": {
+    "direction": "high",
+    "example": "five note voicings are common"
+  },
+  "texture_pct_6plus_notes": {
+    "direction": "high",
+    "example": "chords with six plus notes"
+  },
+  "texture_polyphonic_burst_mean_duration_beats": {
+    "direction": "high",
+    "example": "very sustained chordal accents"
+  },
+  "texture_polyphonic_burst_rate": {
+    "direction": "high",
+    "example": "busy rhythmic chord comping"
+  },
+  "texture_polyphonic_pct": {
+    "direction": "high",
+    "example": "chords"
+  },
+  "tonality_prevalent_pitch_pct": {
+    "direction": "high",
+    "example": "strong tonal center anchored"
+  },
+  "tonality_out_of_key_notes": {
+    "direction": "low",
+    "example": "mostly diatonic in key"
+  },
+  "tonality_unique_pitches_count": {
+    "direction": "low",
+    "example": "drone-like single pitch focus"
+  },
+  "tonality_unique_pitches_count_trend": {
+    "direction": "high",
+    "example": "pitch vocabulary expands over time"
+  },
+  "texture_mono_vs_chords_register": {
+    "direction": "mid",
+    "example": "a melody line clearly above the chords"
+  },
+  "drum_prevalence_toms_others": {
+    "direction": "high",
+    "example": "a toms/others-heavy kit"
+  }
+}

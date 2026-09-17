@@ -1,0 +1,644 @@
+{
+  "trials": [
+    {
+      "index": 1,
+      "family": "pitched",
+      "prompt": "bass loop",
+      "note": "expect metadata_instrument_family: Bass",
+      "meta_expected": [
+        "metadata_instrument_family"
+      ],
+      "returned_concepts": [
+        "metadata_instrument_family",
+        "register_median_note_midi",
+        "register_lowest_note_midi",
+        "rhythmic_density_bar_to_bar_evolution"
+      ],
+      "meta_hits": [
+        "metadata_instrument_family"
+      ],
+      "meta_missed": [],
+      "hit_count": 1,
+      "total_meta": 1,
+      "all_meta_present": true
+    },
+    {
+      "index": 2,
+      "family": "pitched",
+      "prompt": "acoustic piano piece",
+      "note": "expect metadata_instrument_family: Piano",
+      "meta_expected": [
+        "metadata_instrument_family"
+      ],
+      "returned_concepts": [
+        "metadata_instrument_family"
+      ],
+      "meta_hits": [
+        "metadata_instrument_family"
+      ],
+      "meta_missed": [],
+      "hit_count": 1,
+      "total_meta": 1,
+      "all_meta_present": true
+    },
+    {
+      "index": 3,
+      "family": "pitched",
+      "prompt": "synth pad texture",
+      "note": "expect metadata_instrument_family: Synth Pad",
+      "meta_expected": [
+        "metadata_instrument_family"
+      ],
+      "returned_concepts": [
+        "metadata_instrument_family",
+        "harmonic_density_polyphonic_pct",
+        "harmonic_density_polyphonic_burst_mean_duration_beats",
+        "duration_long_profile",
+        "dynamics_average_velocity"
+      ],
+      "meta_hits": [
+        "metadata_instrument_family"
+      ],
+      "meta_missed": [],
+      "hit_count": 1,
+      "total_meta": 1,
+      "all_meta_present": true
+    },
+    {
+      "index": 4,
+      "family": "pitched",
+      "prompt": "in the key of C minor",
+      "note": "expect metadata_root_key: C, metadata_scale_type: Minor",
+      "meta_expected": [
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "returned_concepts": [
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "meta_hits": [
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "meta_missed": [],
+      "hit_count": 2,
+      "total_meta": 2,
+      "all_meta_present": true
+    },
+    {
+      "index": 5,
+      "family": "pitched",
+      "prompt": "E major",
+      "note": "expect metadata_root_key: E, metadata_scale_type: Major",
+      "meta_expected": [
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "returned_concepts": [
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "meta_hits": [
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "meta_missed": [],
+      "hit_count": 2,
+      "total_meta": 2,
+      "all_meta_present": true
+    },
+    {
+      "index": 6,
+      "family": "pitched",
+      "prompt": "minor key tonal center",
+      "note": "expect metadata_scale_type: Minor",
+      "meta_expected": [
+        "metadata_scale_type"
+      ],
+      "returned_concepts": [
+        "metadata_scale_type",
+        "tonality_prevalent_pitch_pct"
+      ],
+      "meta_hits": [
+        "metadata_scale_type"
+      ],
+      "meta_missed": [],
+      "hit_count": 1,
+      "total_meta": 1,
+      "all_meta_present": true
+    },
+    {
+      "index": 7,
+      "family": "pitched",
+      "prompt": "3/4 waltz feel",
+      "note": "expect metadata_time_sig_num: 3, metadata_time_sig_den: 4",
+      "meta_expected": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "returned_concepts": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "meta_hits": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "meta_missed": [],
+      "hit_count": 2,
+      "total_meta": 2,
+      "all_meta_present": true
+    },
+    {
+      "index": 8,
+      "family": "drums",
+      "prompt": "4/4 groove",
+      "note": "expect metadata_time_sig_num: 4, metadata_time_sig_den: 4",
+      "meta_expected": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "returned_concepts": [
+        "drum_kick_grid_attempt_pct_odd1",
+        "drum_kick_grid_attempt_pct_even1",
+        "drum_snare_clap_grid_attempt_pct_2and4",
+        "drum_kick_groove_macro_jitter",
+        "drum_snare_clap_groove_macro_jitter"
+      ],
+      "meta_hits": [],
+      "meta_missed": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "hit_count": 0,
+      "total_meta": 2,
+      "all_meta_present": false
+    },
+    {
+      "index": 9,
+      "family": "pitched",
+      "prompt": "in 6/8 time",
+      "note": "expect metadata_time_sig_num: 6, metadata_time_sig_den: 8",
+      "meta_expected": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "returned_concepts": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "meta_hits": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "meta_missed": [],
+      "hit_count": 2,
+      "total_meta": 2,
+      "all_meta_present": true
+    },
+    {
+      "index": 10,
+      "family": "pitched",
+      "prompt": "bass loop in E minor",
+      "note": "expect instrument_family: Bass + root_key: E + scale_type: Minor",
+      "meta_expected": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "returned_concepts": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "meta_hits": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "meta_missed": [],
+      "hit_count": 3,
+      "total_meta": 3,
+      "all_meta_present": true
+    },
+    {
+      "index": 11,
+      "family": "pitched",
+      "prompt": "piano piece in C major, 4/4 time",
+      "note": "expect 5 metadata concepts: Piano + C + Major + 4 + 4",
+      "meta_expected": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type",
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "returned_concepts": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type",
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "meta_hits": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type",
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "meta_missed": [],
+      "hit_count": 5,
+      "total_meta": 5,
+      "all_meta_present": true
+    },
+    {
+      "index": 12,
+      "family": "pitched",
+      "prompt": "synth lead in A minor, 6/8",
+      "note": "expect 5 meta: Synth Lead + A + Minor + 6 + 8",
+      "meta_expected": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type",
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "returned_concepts": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type",
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "meta_hits": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type",
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "meta_missed": [],
+      "hit_count": 5,
+      "total_meta": 5,
+      "all_meta_present": true
+    },
+    {
+      "index": 13,
+      "family": "pitched",
+      "prompt": "sparse bass loop in C minor",
+      "note": "meta + density: metadata concepts should not be dropped",
+      "meta_expected": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "returned_concepts": [
+        "metadata_instrument_family",
+        "register_median_note_midi",
+        "metadata_root_key",
+        "metadata_scale_type",
+        "rhythmic_density_average_events_per_beat",
+        "rhythmic_density_bar_to_bar_evolution"
+      ],
+      "meta_hits": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "meta_missed": [],
+      "hit_count": 3,
+      "total_meta": 3,
+      "all_meta_present": true
+    },
+    {
+      "index": 14,
+      "family": "pitched",
+      "prompt": "dark synth pad in E minor with slow attack",
+      "note": "meta + duration/expression",
+      "meta_expected": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "returned_concepts": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type",
+        "register_median_note_midi",
+        "harmonic_density_polyphonic_pct",
+        "duration_long_profile",
+        "dynamics_average_velocity",
+        "harmonic_density_polyphonic_burst_mean_duration_beats"
+      ],
+      "meta_hits": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "meta_missed": [],
+      "hit_count": 3,
+      "total_meta": 3,
+      "all_meta_present": true
+    },
+    {
+      "index": 15,
+      "family": "drums",
+      "prompt": "busy drum loop in 6/8",
+      "note": "time sig + drum density",
+      "meta_expected": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "returned_concepts": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den",
+        "drum_hats_cymbals_rhythmic_density_average_events_per_beat",
+        "drum_kick_rhythmic_density_average_events_per_beat",
+        "drum_snare_clap_rhythmic_density_average_events_per_beat"
+      ],
+      "meta_hits": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "meta_missed": [],
+      "hit_count": 2,
+      "total_meta": 2,
+      "all_meta_present": true
+    },
+    {
+      "index": 16,
+      "family": "pitched",
+      "prompt": "sparse haunting piano piece in A minor, 3/4 time, very quiet with long sustained notes",
+      "note": "5 meta concepts + 5+ musical: stress test for metadata drop",
+      "meta_expected": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type",
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "returned_concepts": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type",
+        "metadata_time_sig_num",
+        "metadata_time_sig_den",
+        "dynamics_average_velocity",
+        "duration_long_profile",
+        "spacing_long_profile",
+        "rhythmic_density_average_events_per_beat",
+        "harmonic_density_polyphonic_burst_mean_duration_beats"
+      ],
+      "meta_hits": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type",
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "meta_missed": [],
+      "hit_count": 5,
+      "total_meta": 5,
+      "all_meta_present": true
+    },
+    {
+      "index": 17,
+      "family": "pitched",
+      "prompt": "aggressive bass and kick pattern in D minor, 4/4, fast attack with heavy accents",
+      "note": "meta + multiple musical dimensions under load",
+      "meta_expected": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type",
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "returned_concepts": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type",
+        "metadata_time_sig_num",
+        "metadata_time_sig_den",
+        "dynamics_average_velocity",
+        "dynamics_accents_presence",
+        "dynamics_velocity_spread",
+        "rhythmic_density_average_events_per_beat",
+        "spacing_short_profile",
+        "register_median_note_midi"
+      ],
+      "meta_hits": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type",
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "meta_missed": [],
+      "hit_count": 5,
+      "total_meta": 5,
+      "all_meta_present": true
+    },
+    {
+      "index": 18,
+      "family": "pitched",
+      "prompt": "bright E major synth melody, staccato, high register, lots of sixteenth notes with wide leaps",
+      "note": "meta under heavy musical load (register, duration, spacing, intervals)",
+      "meta_expected": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "returned_concepts": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type",
+        "register_median_note_midi",
+        "melodic_intervals_absolute_median_semitones",
+        "melodic_intervals_max_leap_semitones",
+        "spacing_16th_share",
+        "rhythmic_density_average_events_per_beat",
+        "duration_short_profile"
+      ],
+      "meta_hits": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "meta_missed": [],
+      "hit_count": 3,
+      "total_meta": 3,
+      "all_meta_present": true
+    },
+    {
+      "index": 19,
+      "family": "drums",
+      "prompt": "steel pan drum loop in 5/4",
+      "note": "drums family with time sig",
+      "meta_expected": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "returned_concepts": [
+        "metadata_instrument_family",
+        "metadata_time_sig_num",
+        "metadata_time_sig_den",
+        "drum_hats_cymbals_rhythmic_density_bar_to_bar_evolution"
+      ],
+      "meta_hits": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "meta_missed": [],
+      "hit_count": 2,
+      "total_meta": 2,
+      "all_meta_present": true
+    },
+    {
+      "index": 20,
+      "family": "drums",
+      "prompt": "jazz kit, brush snare, swing feel in 3/4",
+      "note": "drums + time sig + swing",
+      "meta_expected": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "returned_concepts": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den",
+        "drum_snare_clap_groove_swing_shuffle_ratio",
+        "drum_kick_groove_swing_shuffle_ratio",
+        "drum_hats_cymbals_groove_swing_shuffle_ratio",
+        "drum_snare_clap_dynamics_average_velocity"
+      ],
+      "meta_hits": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "meta_missed": [],
+      "hit_count": 2,
+      "total_meta": 2,
+      "all_meta_present": true
+    },
+    {
+      "index": 21,
+      "family": "pitched",
+      "prompt": "find me loops in the key of F, minor scale",
+      "note": "explicit key+scale query, no musical content",
+      "meta_expected": [
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "returned_concepts": [
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "meta_hits": [
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "meta_missed": [],
+      "hit_count": 2,
+      "total_meta": 2,
+      "all_meta_present": true
+    },
+    {
+      "index": 22,
+      "family": "pitched",
+      "prompt": "MIDI file with guitar, 6/8 meter, key of G",
+      "note": "triple metadata, explicit",
+      "meta_expected": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "returned_concepts": [
+        "metadata_instrument_family",
+        "metadata_time_sig_num",
+        "metadata_time_sig_den",
+        "metadata_root_key",
+        "metadata_scale_type"
+      ],
+      "meta_hits": [
+        "metadata_instrument_family",
+        "metadata_root_key",
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "meta_missed": [],
+      "hit_count": 4,
+      "total_meta": 4,
+      "all_meta_present": true
+    },
+    {
+      "index": 23,
+      "family": "pitched",
+      "prompt": "time signature of 7/8, odd meter",
+      "note": "time sig only",
+      "meta_expected": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "returned_concepts": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "meta_hits": [
+        "metadata_time_sig_num",
+        "metadata_time_sig_den"
+      ],
+      "meta_missed": [],
+      "hit_count": 2,
+      "total_meta": 2,
+      "all_meta_present": true
+    },
+    {
+      "index": 24,
+      "family": "drums",
+      "prompt": "very fast dense drum break with high velocity and tight microtiming",
+      "note": "no metadata mentioned \u2014 should not spuriously return metadata",
+      "meta_expected": [],
+      "returned_concepts": [
+        "drum_kick_rhythmic_density_average_events_per_beat",
+        "drum_kick_dynamics_average_velocity",
+        "drum_kick_groove_micro_jitter",
+        "drum_snare_clap_rhythmic_density_average_events_per_beat",
+        "drum_snare_clap_dynamics_average_velocity",
+        "drum_snare_clap_groove_micro_jitter",
+        "drum_hats_cymbals_rhythmic_density_average_events_per_beat",
+        "drum_hats_cymbals_dynamics_average_velocity",
+        "drum_hats_cymbals_groove_micro_jitter"
+      ],
+      "meta_hits": [],
+      "meta_missed": [],
+      "hit_count": 0,
+      "total_meta": 0,
+      "all_meta_present": true
+    },
+    {
+      "index": 25,
+      "family": "pitched",
+      "prompt": "slow dreamy pad with lots of reverb and wide stereo spread",
+      "note": "no metadata mentioned \u2014 should not spuriously return metadata",
+      "meta_expected": [],
+      "returned_concepts": [
+        "rhythmic_density_average_events_per_beat",
+        "spacing_long_profile",
+        "duration_long_profile",
+        "harmonic_density_polyphonic_pct",
+        "harmonic_density_polyphonic_burst_mean_duration_beats",
+        "harmonic_density_avg_wide_gaps_per_burst",
+        "dynamics_average_velocity",
+        "dynamics_velocity_spread",
+        "dynamics_intensity_trend"
+      ],
+      "meta_hits": [],
+      "meta_missed": [],
+      "hit_count": 0,
+      "total_meta": 0,
+      "all_meta_present": true
+    }
+  ]
+}

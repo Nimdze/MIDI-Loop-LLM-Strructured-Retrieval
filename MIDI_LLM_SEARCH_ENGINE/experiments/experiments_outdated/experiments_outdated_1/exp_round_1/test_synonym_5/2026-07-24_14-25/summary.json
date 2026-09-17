@@ -1,0 +1,71 @@
+{
+  "phase": "4D",
+  "run_id": "2026-07-24T10:59:08.708142+00:00",
+  "batches_definition": "[[2, 50], [3, 50], [4, 25], [5, 25]]",
+  "seed": 42,
+  "total_sets": 275,
+  "total_passed": 230,
+  "total_failed": 45,
+  "overall_accuracy": 0.8364,
+  "fixes_applied": "ordinal markers, structural grid coupling, level_index resolution, category reasoning",
+  "families": {
+    "drums": {
+      "phase": "4D",
+      "family": "drums",
+      "total": 150,
+      "passed": 128,
+      "failed": 22,
+      "accuracy": 0.8533,
+      "combo_breakdown": {
+        "2": {
+          "total": 50,
+          "passed": 47,
+          "failed": 3
+        },
+        "3": {
+          "total": 50,
+          "passed": 41,
+          "failed": 9
+        },
+        "4": {
+          "total": 25,
+          "passed": 18,
+          "failed": 7
+        },
+        "5": {
+          "total": 25,
+          "passed": 22,
+          "failed": 3
+        }
+      },
+      "avg_response_time_ms": 5627.4
+    },
+    "pitched": {
+      "phase": "4D",
+      "family": "pitched",
+      "total": 125,
+      "passed": 102,
+      "failed": 23,
+      "accuracy": 0.816,
+      "combo_breakdown": {
+        "2": {
+          "total": 50,
+          "passed": 41,
+          "failed": 9
+        },
+        "3": {
+          "total": 50,
+          "passed": 45,
+          "failed": 5
+        },
+        "4": {
+          "total": 25,
+          "passed": 16,
+          "failed": 9
+        }
+      },
+      "avg_response_time_ms": 5767.2
+    }
+  },
+  "unresolved_failures": "semantic substitution between mirror/inverted concept pairs (31/45 failures). See failure_groups.md for full analysis."
+}

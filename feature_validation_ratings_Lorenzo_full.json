@@ -1,0 +1,616 @@
+{
+  "rhythmic_density_average_events_per_beat": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "rhythmic_density_average_events_per_beat",
+        "Minimalist/Drone-like"
+      ]
+    ]
+  },
+  "rhythmic_density_burstiness": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "rhythmic_density_burstiness",
+        "Uniform Density"
+      ]
+    ]
+  },
+  "rhythmic_density_bar_to_bar_evolution": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "rhythmic_density_bar_to_bar_evolution",
+        "Constant Bar Event Density"
+      ]
+    ]
+  },
+  "rhythmic_density_turnaround_shift": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "rhythmic_density_turnaround_shift",
+        "Turnaround Dropout"
+      ]
+    ]
+  },
+  "rhythmic_density_trend": {
+    "rating": 4,
+    "note": "lacks exactness",
+    "tags": [
+      [
+        "rhythmic_density_trend",
+        "Falling Density / Slowing Down"
+      ]
+    ]
+  },
+  "spacing_quarter_share": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "spacing_quarter_share",
+        "Defining Quarter Note Spacing"
+      ]
+    ]
+  },
+  "spacing_short_profile": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "spacing_short_profile",
+        "No Short Spacing"
+      ]
+    ]
+  },
+  "spacing_max_silence_beats": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "spacing_max_silence_beats",
+        "Short Max Silence < 1/8 Bar"
+      ]
+    ]
+  },
+  "duration_half_share": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "duration_half_share",
+        "No Half Note Duration"
+      ]
+    ]
+  },
+  "duration_long_profile": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "duration_long_profile",
+        "No Long Duration"
+      ]
+    ]
+  },
+  "duration_max_length_beats": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "duration_max_length_beats",
+        "Max Sustain < 1/8 Bar"
+      ]
+    ]
+  },
+  "groove_swing_shuffle_ratio": {
+    "rating": 3,
+    "note": "ambiguous",
+    "tags": [
+      [
+        "groove_swing_shuffle_ratio",
+        "Straight (Even Subdivisions)"
+      ]
+    ]
+  },
+  "groove_macro_jitter": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "groove_macro_jitter",
+        "Tight Macro Pocket"
+      ]
+    ]
+  },
+  "groove_micro_jitter": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "groove_micro_jitter",
+        "Tight Micro Execution"
+      ]
+    ]
+  },
+  "dynamics_average_velocity": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "dynamics_average_velocity",
+        "Ghost/Whisper Velocity"
+      ]
+    ]
+  },
+  "dynamics_accents_presence": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "dynamics_accents_presence",
+        "Contains Dynamic Accents"
+      ]
+    ]
+  },
+  "dynamics_velocity_spread": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "dynamics_velocity_spread",
+        "Flat/Programmed Dynamics"
+      ]
+    ]
+  },
+  "dynamics_intensity_trend": {
+    "rating": 3,
+    "note": "ambiguous",
+    "tags": [
+      [
+        "dynamics_intensity_trend",
+        "Fading Intensity"
+      ]
+    ]
+  },
+  "tonality_unique_pitches_count": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "tonality_unique_pitches_count",
+        "8+ Pitch Classes"
+      ]
+    ]
+  },
+  "tonality_out_of_key_notes": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "tonality_out_of_key_notes",
+        "0 Out-of-Key Notes"
+      ]
+    ]
+  },
+  "tonality_prevalent_pitch_pct": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "tonality_prevalent_pitch_pct",
+        "Anchor Centered"
+      ]
+    ]
+  },
+  "tonality_unique_pitches_count_trend": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "tonality_unique_pitches_count_trend",
+        "Contracting Pitch Vocabulary"
+      ]
+    ]
+  },
+  "profile_melodic_intervals_pct_asc_7_semitones": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "profile_melodic_intervals_pct_asc_7_semitones",
+        "None"
+      ],
+      [
+        "texture_pct_1_notes",
+        "Defining 1 Notes"
+      ]
+    ]
+  },
+  "profile_melodic_intervals_pct_desc_1_semitones": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "profile_melodic_intervals_pct_desc_1_semitones",
+        "Defining"
+      ],
+      [
+        "texture_pct_1_notes",
+        "Defining 1 Notes"
+      ]
+    ]
+  },
+  "profile_melodic_intervals_pct_asc_13plus_semitones": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "profile_melodic_intervals_pct_asc_13plus_semitones",
+        "None"
+      ],
+      [
+        "texture_pct_1_notes",
+        "Defining 1 Notes"
+      ]
+    ]
+  },
+  "profile_melodic_intervals_pct_static": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "profile_melodic_intervals_pct_static",
+        "None"
+      ],
+      [
+        "texture_pct_1_notes",
+        "Defining 1 Notes"
+      ]
+    ]
+  },
+  "melodic_intervals_pct_descending": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "melodic_intervals_pct_descending",
+        "No Descending Motion"
+      ],
+      [
+        "texture_pct_1_notes",
+        "Defining 1 Notes"
+      ]
+    ]
+  },
+  "melodic_intervals_sequence_repetition_pct": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "melodic_intervals_sequence_repetition_pct",
+        "Varying Interval Patterns"
+      ],
+      [
+        "texture_pct_1_notes",
+        "Defining 1 Notes"
+      ]
+    ]
+  },
+  "melodic_interval_vocabulary_count": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "melodic_interval_vocabulary_count",
+        "Highly Diverse Melodic Interval Palette"
+      ],
+      [
+        "texture_pct_1_notes",
+        "Defining 1 Notes"
+      ]
+    ]
+  },
+  "melodic_intervals_absolute_median_semitones": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "melodic_intervals_absolute_median_semitones",
+        "Stepwise / Scalar Melodic Motion"
+      ],
+      [
+        "texture_pct_1_notes",
+        "Defining 1 Notes"
+      ]
+    ]
+  },
+  "melodic_intervals_max_leap_semitones": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "melodic_intervals_max_leap_semitones",
+        "No Leaps (< Perfect 4th)"
+      ],
+      [
+        "texture_pct_1_notes",
+        "Defining 1 Notes"
+      ]
+    ]
+  },
+  "register_lowest_note_midi": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "register_lowest_note_midi",
+        "Register: Air"
+      ],
+      [
+        "texture_pct_1_notes",
+        "Defining 1 Notes"
+      ]
+    ]
+  },
+  "register_median_note_midi": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "register_median_note_midi",
+        "Register: Air"
+      ],
+      [
+        "texture_pct_1_notes",
+        "Defining 1 Notes"
+      ]
+    ]
+  },
+  "register_spread_semitones": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "register_spread_semitones",
+        "Compact Pitch Range (< 1 Octave)"
+      ],
+      [
+        "texture_pct_1_notes",
+        "Defining 1 Notes"
+      ]
+    ]
+  },
+  "profile_harmonic_intervals_pct_07_semitones": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "profile_harmonic_intervals_pct_07_semitones",
+        "Significant"
+      ],
+      [
+        "texture_pct_1_notes",
+        "No 1 Notes"
+      ]
+    ]
+  },
+  "profile_harmonic_intervals_pct_15_semitones": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "profile_harmonic_intervals_pct_15_semitones",
+        "Significant"
+      ],
+      [
+        "texture_pct_1_notes",
+        "No 1 Notes"
+      ]
+    ]
+  },
+  "harmonic_dissonance_pct": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "harmonic_dissonance_pct",
+        "No Dissonance"
+      ],
+      [
+        "texture_pct_1_notes",
+        "No 1 Notes"
+      ]
+    ]
+  },
+  "texture_pct_1_notes": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "texture_pct_1_notes",
+        "No 1 Notes"
+      ]
+    ]
+  },
+  "texture_pct_2_notes": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "texture_pct_2_notes",
+        "No 2 Notes"
+      ]
+    ]
+  },
+  "texture_pct_6plus_notes": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "texture_pct_6plus_notes",
+        "Defining 6+ Notes"
+      ]
+    ]
+  },
+  "texture_polyphonic_pct": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "texture_polyphonic_pct",
+        "No Chordal (3+ Notes)"
+      ]
+    ]
+  },
+  "texture_avg_wide_gaps_per_burst": {
+    "rating": 3,
+    "note": "ambiguous",
+    "tags": [
+      [
+        "texture_avg_wide_gaps_per_burst",
+        "Small Chordal Spread"
+      ],
+      [
+        "texture_polyphonic_pct",
+        "Defining Chordal (3+ Notes)"
+      ]
+    ]
+  },
+  "texture_polyphonic_burst_rate": {
+    "rating": 4,
+    "note": "lacks exactness",
+    "tags": [
+      [
+        "texture_polyphonic_burst_rate",
+        "Dense Chordal Hits"
+      ],
+      [
+        "texture_polyphonic_pct",
+        "Present Chordal (3+ Notes)"
+      ]
+    ]
+  },
+  "texture_polyphonic_burst_mean_duration_beats": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "texture_polyphonic_burst_mean_duration_beats",
+        "Sustained Chordal Accents"
+      ],
+      [
+        "texture_polyphonic_pct",
+        "Present Chordal (3+ Notes)"
+      ]
+    ]
+  },
+  "texture_mono_vs_chords_register": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "texture_mono_vs_chords_register",
+        "Far Above Chords"
+      ],
+      [
+        "texture_polyphonic_pct",
+        "Present Chordal (3+ Notes)"
+      ]
+    ]
+  },
+  "grid_attempt_pct_2and4": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "grid_attempt_pct_2and4",
+        "No Attempts"
+      ],
+      [
+        "grid_success_pct_2and4",
+        "Very Low Success"
+      ]
+    ]
+  },
+  "grid_success_pct_2and4": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "grid_success_pct_2and4",
+        "High Success"
+      ],
+      [
+        "grid_success_pct_2and4",
+        "Very Low Success"
+      ]
+    ]
+  },
+  "drum_kick_rhythmic_density_average_events_per_beat": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "drum_kick_rhythmic_density_average_events_per_beat",
+        "Busy"
+      ]
+    ]
+  },
+  "drum_snare_clap_groove_macro_jitter": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "drum_snare_clap_groove_macro_jitter",
+        "Organic Macro Pocket"
+      ]
+    ]
+  },
+  "drum_hats_cymbals_spacing_short_profile": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "drum_hats_cymbals_spacing_short_profile",
+        "No Short Spacing"
+      ]
+    ]
+  },
+  "drum_toms_others_dynamics_average_velocity": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "drum_toms_others_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ]
+    ]
+  },
+  "drum_prevalence_kick_kick_2": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "drum_prevalence_kick_kick_2",
+        "Not Present"
+      ]
+    ]
+  },
+  "register_boundary_shift_semitones": {
+    "rating": 5,
+    "note": "",
+    "tags": [
+      [
+        "register_boundary_shift_semitones",
+        "Active Register Migration"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,760 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "family": "drums",
+      "prompt": "busy kick with tight snare",
+      "note": "AND \u2014 density_high AND jitter_low",
+      "returned": [
+        [
+          "drum_kick_rhythmic_density_average_events_per_beat",
+          "Busy"
+        ],
+        [
+          "drum_snare_clap_groove_macro_jitter",
+          "Tight Macro Pocket"
+        ],
+        [
+          "drum_prevalence_kick_kick_1",
+          "Significant Kick 1"
+        ],
+        [
+          "drum_prevalence_snare_clap_snare_1",
+          "Significant Snare 1"
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "family": "drums",
+      "prompt": "loud hi-hats and gentle snare",
+      "note": "AND \u2014 velocity_high + velocity_low",
+      "returned": [
+        [
+          "drum_hats_cymbals_velocity_intensity_magnitude",
+          "Hard/Aggressive Velocity"
+        ],
+        [
+          "drum_snare_clap_velocity_intensity_magnitude",
+          "Soft Velocity"
+        ],
+        [
+          "drum_prevalence_hats_cymbals_closed_hat",
+          "Present Closed Hat"
+        ],
+        [
+          "drum_prevalence_snare_clap_snare_1",
+          "Present Snare 1"
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "family": "drums",
+      "prompt": "sparse kick and dense hi-hats",
+      "note": "AND \u2014 density_low + density_high",
+      "returned": [
+        [
+          "drum_kick_rhythmic_density_average_events_per_beat",
+          "Sparse"
+        ],
+        [
+          "drum_hats_cymbals_rhythmic_density_average_events_per_beat",
+          "Busy"
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "family": "drums",
+      "prompt": "driving or powerful feel",
+      "note": "OR \u2014 velocity_high OR density_high (at least one)",
+      "returned": [
+        [
+          "drum_kick_velocity_intensity_magnitude",
+          "Hard/Aggressive Velocity"
+        ],
+        [
+          "drum_kick_rhythmic_density_average_events_per_beat",
+          "Busy"
+        ],
+        [
+          "drum_kick_groove_macro_jitter",
+          "Tight Macro Pocket"
+        ],
+        [
+          "drum_hats_cymbals_velocity_intensity_magnitude",
+          "Hard/Aggressive Velocity"
+        ],
+        [
+          "drum_hats_cymbals_rhythmic_density_average_events_per_beat",
+          "Busy"
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "family": "drums",
+      "prompt": "swinging or shuffling",
+      "note": "OR \u2014 swing_high for either",
+      "returned": [
+        [
+          "drum_kick_groove_swing_shuffle_ratio",
+          "Heavy Swing / Shuffle"
+        ],
+        [
+          "drum_snare_clap_groove_swing_shuffle_ratio",
+          "Heavy Swing / Shuffle"
+        ],
+        [
+          "drum_hats_cymbals_groove_swing_shuffle_ratio",
+          "Heavy Swing / Shuffle"
+        ],
+        [
+          "drum_toms_others_groove_swing_shuffle_ratio",
+          "Heavy Swing / Shuffle"
+        ]
+      ]
+    },
+    {
+      "index": 6,
+      "family": "drums",
+      "prompt": "relaxed or bouncy feel",
+      "note": "OR \u2014 jitter_high OR swing_high",
+      "returned": [
+        [
+          "drum_hats_cymbals_groove_macro_jitter",
+          "Organic Macro Pocket"
+        ],
+        [
+          "drum_hats_cymbals_groove_swing_shuffle_ratio",
+          "Light Swing / Shuffle"
+        ],
+        [
+          "drum_hats_cymbals_velocity_intensity_magnitude",
+          "Soft Velocity"
+        ],
+        [
+          "drum_hats_cymbals_rhythmic_density_average_events_per_beat",
+          "Moderately (not too) Sparse"
+        ],
+        [
+          "drum_hats_cymbals_grid_attempt_pct_offbeat",
+          "High Attempts"
+        ],
+        [
+          "drum_hats_cymbals_groove_micro_jitter",
+          "Organic Micro Execution"
+        ],
+        [
+          "drum_kick_groove_macro_jitter",
+          "Organic Macro Pocket"
+        ],
+        [
+          "drum_kick_groove_swing_shuffle_ratio",
+          "Light Swing / Shuffle"
+        ],
+        [
+          "drum_kick_velocity_intensity_magnitude",
+          "Soft Velocity"
+        ],
+        [
+          "drum_kick_rhythmic_density_average_events_per_beat",
+          "Moderately (not too) Sparse"
+        ],
+        [
+          "drum_kick_groove_micro_jitter",
+          "Organic Micro Execution"
+        ]
+      ]
+    },
+    {
+      "index": 7,
+      "family": "drums",
+      "prompt": "tight with no swing",
+      "note": "AND + NOT \u2014 jitter_low AND swing_low",
+      "returned": [
+        [
+          "drum_kick_groove_macro_jitter",
+          "Tight Macro Pocket"
+        ],
+        [
+          "drum_kick_groove_micro_jitter",
+          "Tight Micro Execution"
+        ],
+        [
+          "drum_kick_groove_swing_shuffle_ratio",
+          "Straight (Even Subdivisions)"
+        ],
+        [
+          "drum_snare_clap_groove_macro_jitter",
+          "Tight Macro Pocket"
+        ],
+        [
+          "drum_snare_clap_groove_micro_jitter",
+          "Tight Micro Execution"
+        ],
+        [
+          "drum_snare_clap_groove_swing_shuffle_ratio",
+          "Straight (Even Subdivisions)"
+        ],
+        [
+          "drum_hats_cymbals_groove_macro_jitter",
+          "Tight Macro Pocket"
+        ],
+        [
+          "drum_hats_cymbals_groove_micro_jitter",
+          "Tight Micro Execution"
+        ],
+        [
+          "drum_hats_cymbals_groove_swing_shuffle_ratio",
+          "Straight (Even Subdivisions)"
+        ]
+      ]
+    },
+    {
+      "index": 8,
+      "family": "drums",
+      "prompt": "loud but no accents",
+      "note": "AND + NOT \u2014 velocity_high AND accents_low",
+      "returned": [
+        [
+          "drum_kick_velocity_intensity_magnitude",
+          "Hard/Aggressive Velocity"
+        ],
+        [
+          "drum_kick_dynamic_accents_presence",
+          "No Dynamic Accents"
+        ],
+        [
+          "drum_kick_dynamic_variance_spread",
+          "Flat/Programmed Dynamics"
+        ],
+        [
+          "drum_snare_clap_velocity_intensity_magnitude",
+          "Hard/Aggressive Velocity"
+        ],
+        [
+          "drum_snare_clap_dynamic_accents_presence",
+          "No Dynamic Accents"
+        ],
+        [
+          "drum_snare_clap_dynamic_variance_spread",
+          "Flat/Programmed Dynamics"
+        ],
+        [
+          "drum_hats_cymbals_velocity_intensity_magnitude",
+          "Hard/Aggressive Velocity"
+        ],
+        [
+          "drum_hats_cymbals_dynamic_accents_presence",
+          "No Dynamic Accents"
+        ],
+        [
+          "drum_hats_cymbals_dynamic_variance_spread",
+          "Flat/Programmed Dynamics"
+        ],
+        [
+          "drum_toms_others_velocity_intensity_magnitude",
+          "Hard/Aggressive Velocity"
+        ],
+        [
+          "drum_toms_others_dynamic_accents_presence",
+          "No Dynamic Accents"
+        ],
+        [
+          "drum_toms_others_dynamic_variance_spread",
+          "Flat/Programmed Dynamics"
+        ]
+      ]
+    },
+    {
+      "index": 9,
+      "family": "drums",
+      "prompt": "busy hats but no crash",
+      "note": "AND + NOT \u2014 density_high AND crash_low",
+      "returned": [
+        [
+          "drum_hats_cymbals_rhythmic_density_average_events_per_beat",
+          "Busy"
+        ],
+        [
+          "drum_hats_cymbals_spacing_short_profile",
+          "Primary Short Spacing"
+        ]
+      ]
+    },
+    {
+      "index": 10,
+      "family": "drums",
+      "prompt": "dense driving feel with no swing",
+      "note": "AND + NOT \u2014 density_high + velocity_high + swing_low",
+      "returned": [
+        [
+          "drum_kick_rhythmic_density_average_events_per_beat",
+          "Busy"
+        ],
+        [
+          "drum_kick_rhythmic_density_burstiness",
+          "Steady Spacing"
+        ],
+        [
+          "drum_kick_grid_attempt_pct_odd1",
+          "High Attempts"
+        ],
+        [
+          "drum_kick_grid_attempt_pct_beat3",
+          "High Attempts"
+        ],
+        [
+          "drum_kick_groove_swing_shuffle_ratio",
+          "Straight (Even Subdivisions)"
+        ],
+        [
+          "drum_snare_clap_grid_attempt_pct_2and4",
+          "High Attempts"
+        ],
+        [
+          "drum_snare_clap_groove_swing_shuffle_ratio",
+          "Straight (Even Subdivisions)"
+        ],
+        [
+          "drum_hats_cymbals_groove_swing_shuffle_ratio",
+          "Straight (Even Subdivisions)"
+        ]
+      ]
+    },
+    {
+      "index": 11,
+      "family": "drums",
+      "prompt": "sparse or gentle feel",
+      "note": "OR \u2014 density_low OR velocity_low",
+      "returned": [
+        [
+          "drum_kick_rhythmic_density_average_events_per_beat",
+          "Sparse"
+        ],
+        [
+          "drum_kick_velocity_intensity_magnitude",
+          "Soft Velocity"
+        ],
+        [
+          "drum_snare_clap_rhythmic_density_average_events_per_beat",
+          "Sparse"
+        ],
+        [
+          "drum_snare_clap_velocity_intensity_magnitude",
+          "Soft Velocity"
+        ],
+        [
+          "drum_hats_cymbals_rhythmic_density_average_events_per_beat",
+          "Sparse"
+        ],
+        [
+          "drum_hats_cymbals_velocity_intensity_magnitude",
+          "Soft Velocity"
+        ]
+      ]
+    },
+    {
+      "index": 12,
+      "family": "drums",
+      "prompt": "rough but not harsh",
+      "note": "AND + NOT \u2014 burstiness_high + not_loud",
+      "returned": [
+        [
+          "drum_kick_groove_macro_jitter",
+          "Loose Macro Pocket"
+        ],
+        [
+          "drum_kick_velocity_intensity_magnitude",
+          "Balanced / Mixed Velocity"
+        ],
+        [
+          "drum_kick_dynamic_variance_spread",
+          "Natural Dynamic Variance"
+        ]
+      ]
+    },
+    {
+      "index": 13,
+      "family": "drums",
+      "prompt": "tight snare with loose kick",
+      "note": "AND \u2014 jitter_low + jitter_high",
+      "returned": [
+        [
+          "drum_snare_clap_groove_macro_jitter",
+          "Tight Macro Pocket"
+        ],
+        [
+          "drum_snare_clap_groove_micro_jitter",
+          "Tight Micro Execution"
+        ],
+        [
+          "drum_kick_groove_macro_jitter",
+          "Loose Macro Pocket"
+        ],
+        [
+          "drum_kick_groove_micro_jitter",
+          "Loose Micro Execution"
+        ]
+      ]
+    },
+    {
+      "index": 14,
+      "family": "drums",
+      "prompt": "noisy and aggressive",
+      "note": "AND \u2014 dissonance_high + velocity_high",
+      "returned": [
+        [
+          "drum_hats_cymbals_velocity_intensity_magnitude",
+          "Hard/Aggressive Velocity"
+        ],
+        [
+          "drum_kick_velocity_intensity_magnitude",
+          "Hard/Aggressive Velocity"
+        ],
+        [
+          "drum_snare_clap_velocity_intensity_magnitude",
+          "Hard/Aggressive Velocity"
+        ],
+        [
+          "drum_toms_others_velocity_intensity_magnitude",
+          "Hard/Aggressive Velocity"
+        ],
+        [
+          "drum_hats_cymbals_rhythmic_density_average_events_per_beat",
+          "Frantic"
+        ]
+      ]
+    },
+    {
+      "index": 15,
+      "family": "drums",
+      "prompt": "calm without being dull",
+      "note": "AND + NOT \u2014 soft_sparse + not_low_register",
+      "returned": [
+        [
+          "drum_kick_velocity_intensity_magnitude",
+          "Soft Velocity"
+        ],
+        [
+          "drum_snare_clap_velocity_intensity_magnitude",
+          "Soft Velocity"
+        ],
+        [
+          "drum_hats_cymbals_velocity_intensity_magnitude",
+          "Soft Velocity"
+        ],
+        [
+          "drum_kick_rhythmic_density_average_events_per_beat",
+          "Moderately (not too) Sparse"
+        ],
+        [
+          "drum_snare_clap_rhythmic_density_average_events_per_beat",
+          "Moderately (not too) Sparse"
+        ],
+        [
+          "drum_hats_cymbals_rhythmic_density_average_events_per_beat",
+          "Moderately (not too) Sparse"
+        ],
+        [
+          "drum_kick_dynamic_variance_spread",
+          "Natural Dynamic Variance"
+        ],
+        [
+          "drum_snare_clap_dynamic_variance_spread",
+          "Natural Dynamic Variance"
+        ],
+        [
+          "drum_hats_cymbals_dynamic_variance_spread",
+          "Natural Dynamic Variance"
+        ],
+        [
+          "drum_kick_spacing_long_profile",
+          "Primary Long Spacing"
+        ],
+        [
+          "drum_snare_clap_spacing_long_profile",
+          "Primary Long Spacing"
+        ],
+        [
+          "drum_hats_cymbals_spacing_long_profile",
+          "Primary Long Spacing"
+        ],
+        [
+          "drum_kick_groove_macro_jitter",
+          "Organic Macro Pocket"
+        ],
+        [
+          "drum_snare_clap_groove_macro_jitter",
+          "Organic Macro Pocket"
+        ],
+        [
+          "drum_hats_cymbals_groove_macro_jitter",
+          "Organic Macro Pocket"
+        ]
+      ]
+    },
+    {
+      "index": 16,
+      "family": "drums",
+      "prompt": "heavy with no punch",
+      "note": "AND + NOT \u2014 low_freq_heavy + not_accented",
+      "returned": [
+        [
+          "drum_kick_velocity_intensity_magnitude",
+          "Hard/Aggressive Velocity"
+        ],
+        [
+          "drum_snare_clap_velocity_intensity_magnitude",
+          "Hard/Aggressive Velocity"
+        ],
+        [
+          "drum_kick_dynamic_accents_presence",
+          "No Dynamic Accents"
+        ],
+        [
+          "drum_snare_clap_dynamic_accents_presence",
+          "No Dynamic Accents"
+        ],
+        [
+          "drum_kick_dynamic_variance_spread",
+          "Flat/Programmed Dynamics"
+        ],
+        [
+          "drum_snare_clap_dynamic_variance_spread",
+          "Flat/Programmed Dynamics"
+        ]
+      ]
+    },
+    {
+      "index": 17,
+      "family": "pitched",
+      "prompt": "warm dark harmony with no dissonance",
+      "note": "AND + NOT \u2014 low_register + minor + not_dissonant",
+      "returned": [
+        [
+          "harmonic_imperfect_consonance_pct",
+          "Defining Imperfect Consonance"
+        ],
+        [
+          "register_median_note_midi",
+          "Register: Bass"
+        ],
+        [
+          "harmonic_density_polyphonic_pct",
+          "Defining Chordal Voicings"
+        ],
+        [
+          "duration_long_profile",
+          "Defining Long Duration"
+        ],
+        [
+          "harmonic_density_polyphonic_burst_mean_duration_beats",
+          "Sustained Chordal Accents"
+        ]
+      ]
+    },
+    {
+      "index": 18,
+      "family": "pitched",
+      "prompt": "bright and airy but not thin",
+      "note": "AND + NOT \u2014 high_register + long_dur + not_sparse",
+      "returned": [
+        [
+          "register_median_note_midi",
+          "Register: High"
+        ],
+        [
+          "register_highest_note_midi",
+          "Register: Air"
+        ],
+        [
+          "harmonic_density_polyphonic_pct",
+          "Present Chordal Voicings"
+        ]
+      ]
+    },
+    {
+      "index": 19,
+      "family": "pitched",
+      "prompt": "simple and spacious",
+      "note": "AND \u2014 few_pitches + wide_gaps",
+      "returned": [
+        [
+          "spacing_long_profile",
+          "Defining Long Spacing"
+        ],
+        [
+          "rhythmic_density_average_events_per_beat",
+          "Sparse"
+        ],
+        [
+          "harmonic_density_polyphonic_pct",
+          "Occasional Chordal Voicings"
+        ],
+        [
+          "tonality_unique_pitches_count",
+          "Limited Pitch Vocabulary"
+        ],
+        [
+          "melodic_intervals_absolute_median_semitones",
+          "Stepwise / Scalar Melodic Motion"
+        ],
+        [
+          "spacing_max_silence_beats",
+          "Long Max Silence (1-2 Bars)"
+        ],
+        [
+          "duration_long_profile",
+          "Present Long Duration"
+        ]
+      ]
+    },
+    {
+      "index": 20,
+      "family": "pitched",
+      "prompt": "complex or dense texture",
+      "note": "OR \u2014 many_pitches OR thick_texture",
+      "returned": [
+        [
+          "harmonic_density_polyphonic_pct",
+          "Defining Chordal Voicings"
+        ],
+        [
+          "harmonic_density_pct_4_notes",
+          "Defining 4 Notes"
+        ],
+        [
+          "harmonic_density_pct_5_notes",
+          "Defining 5 Notes"
+        ],
+        [
+          "harmonic_density_pct_6plus_notes",
+          "Defining 6+ Notes"
+        ]
+      ]
+    },
+    {
+      "index": 21,
+      "family": "pitched",
+      "prompt": "sustained with no movement",
+      "note": "AND + NOT \u2014 long_dur + static_pitch",
+      "returned": [
+        [
+          "duration_long_profile",
+          "Defining Long Duration"
+        ],
+        [
+          "spacing_long_profile",
+          "Defining Long Spacing"
+        ],
+        [
+          "rhythmic_density_average_events_per_beat",
+          "Minimalist/Drone-like"
+        ],
+        [
+          "duration_max_length_beats",
+          "Contains Massive Sustained Notes (>= 4 Bars)"
+        ],
+        [
+          "tonality_prevalent_pitch_pct",
+          "Anchor Centered"
+        ],
+        [
+          "profile_melodic_intervals_pct_static",
+          "Defining"
+        ]
+      ]
+    },
+    {
+      "index": 22,
+      "family": "pitched",
+      "prompt": "rising but not falling",
+      "note": "AND + NOT \u2014 asc_trend + not_desc_trend",
+      "returned": [
+        [
+          "melodic_intervals_pct_ascending",
+          "Defining Ascending Contour Bias"
+        ]
+      ]
+    },
+    {
+      "index": 23,
+      "family": "pitched",
+      "prompt": "noisy and muddy",
+      "note": "AND \u2014 dissonance_high + register_cramped",
+      "returned": [
+        [
+          "harmonic_dissonance_pct",
+          "Defining Dissonance"
+        ],
+        [
+          "register_median_note_midi",
+          "Register: Low-Mid"
+        ],
+        [
+          "harmonic_density_avg_wide_gaps_per_burst",
+          "Small Chordal Spread"
+        ],
+        [
+          "harmonic_density_polyphonic_pct",
+          "Defining Chordal Voicings"
+        ],
+        [
+          "velocity_intensity_magnitude",
+          "Hard/Aggressive Velocity"
+        ],
+        [
+          "tonality_out_of_key_notes",
+          "Heavy Chromaticism"
+        ]
+      ]
+    },
+    {
+      "index": 24,
+      "family": "pitched",
+      "prompt": "clean and clear",
+      "note": "AND \u2014 in_key + consonant",
+      "returned": [
+        [
+          "tonality_out_of_key_notes",
+          "Strictly Diatonic"
+        ],
+        [
+          "dynamic_variance_spread",
+          "Flat/Programmed Dynamics"
+        ],
+        [
+          "dynamic_accents_presence",
+          "No Dynamic Accents"
+        ],
+        [
+          "velocity_intensity_magnitude",
+          "Balanced / Mixed Velocity"
+        ],
+        [
+          "groove_macro_jitter",
+          "Tight Macro Pocket"
+        ],
+        [
+          "groove_micro_jitter",
+          "Tight Micro Execution"
+        ]
+      ]
+    },
+    {
+      "index": 25,
+      "family": "pitched",
+      "prompt": "staccato or detached",
+      "note": "OR \u2014 short_duration for either",
+      "returned": [
+        [
+          "duration_short_profile",
+          "Defining Short Duration"
+        ]
+      ]
+    }
+  ]
+}

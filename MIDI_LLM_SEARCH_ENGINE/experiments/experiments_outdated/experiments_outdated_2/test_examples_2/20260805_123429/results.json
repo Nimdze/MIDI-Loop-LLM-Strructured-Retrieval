@@ -1,0 +1,2225 @@
+[
+  {
+    "concept": "drum_prevalence_hats_cymbals_closed_hat",
+    "prompt": "Closed Hat heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_prevalence_hats_cymbals_closed_hat",
+        "Defining Closed Hat"
+      ],
+      [
+        "drum_hats_cymbals_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_hats_cymbals_crash_1",
+    "prompt": "Crash 1 heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_prevalence_hats_cymbals_crash_1",
+        "Primary Crash 1"
+      ],
+      [
+        "drum_hats_cymbals_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_hats_cymbals_crash_2",
+    "prompt": "Crash 2 heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_prevalence_hats_cymbals_crash_2",
+        "Defining Crash 2"
+      ],
+      [
+        "drum_hats_cymbals_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_hats_cymbals_cymbal",
+    "prompt": "Cymbal heavy",
+    "family": "drums",
+    "ok": false,
+    "returned": [
+      [
+        "drum_hats_cymbals_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ],
+      [
+        "drum_hats_cymbals_rhythmic_density_average_events_per_beat",
+        "Busy"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_hats_cymbals_open_hat",
+    "prompt": "Open Hat heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_prevalence_hats_cymbals_open_hat",
+        "Primary Open Hat"
+      ],
+      [
+        "drum_hats_cymbals_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_hats_cymbals_pedal_hat",
+    "prompt": "Pedal Hat heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_prevalence_hats_cymbals_pedal_hat",
+        "Primary Pedal Hat"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_hats_cymbals_ride_1",
+    "prompt": "Ride 1 heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_prevalence_hats_cymbals_ride_1",
+        "Primary Ride 1"
+      ],
+      [
+        "drum_hats_cymbals_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_hats_cymbals_ride_2",
+    "prompt": "Ride 2 heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_prevalence_hats_cymbals_ride_2",
+        "Primary Ride 2"
+      ],
+      [
+        "drum_hats_cymbals_rhythmic_density_average_events_per_beat",
+        "Busy"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_hats_cymbals_ride_3",
+    "prompt": "Ride 3 heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_prevalence_hats_cymbals_ride_3",
+        "Defining Ride 3"
+      ],
+      [
+        "drum_hats_cymbals_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_kick_kick_1",
+    "prompt": "Kick 1 heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_kick_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ],
+      [
+        "drum_prevalence_kick_kick_1",
+        "Primary Kick 1"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_kick_kick_2",
+    "prompt": "Kick 2 heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_kick_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ],
+      [
+        "drum_prevalence_kick_kick_2",
+        "Present Kick 2"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_snare_clap_clap",
+    "prompt": "Clap heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_prevalence_snare_clap_clap",
+        "Primary Clap"
+      ],
+      [
+        "drum_snare_clap_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_snare_clap_rimshot",
+    "prompt": "Rimshot heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_prevalence_snare_clap_rimshot",
+        "Primary Rimshot"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_snare_clap_snare_1",
+    "prompt": "Snare 1 heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_snare_clap_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ],
+      [
+        "drum_prevalence_snare_clap_snare_1",
+        "Present Snare 1"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_snare_clap_snare_2",
+    "prompt": "Snare 2 heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_snare_clap_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ],
+      [
+        "drum_prevalence_snare_clap_snare_2",
+        "Primary Snare 2"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_toms_others_hi_mid_tom",
+    "prompt": "Hi Mid Tom heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_prevalence_toms_others_hi_mid_tom",
+        "Primary Hi Mid Tom"
+      ],
+      [
+        "drum_toms_others_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_toms_others_high_floor_tom",
+    "prompt": "High Floor Tom heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_prevalence_toms_others_high_floor_tom",
+        "Primary High Floor Tom"
+      ],
+      [
+        "drum_toms_others_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_toms_others_high_tom",
+    "prompt": "High Tom heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_prevalence_toms_others_high_tom",
+        "Primary High Tom"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_toms_others_low_floor_tom",
+    "prompt": "Low Floor Tom heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_prevalence_toms_others_low_floor_tom",
+        "Primary Low Floor Tom"
+      ],
+      [
+        "drum_toms_others_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_toms_others_low_mid_tom",
+    "prompt": "Low Mid Tom heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_prevalence_toms_others_low_mid_tom",
+        "Defining Low Mid Tom"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "drum_prevalence_toms_others_low_tom",
+    "prompt": "Low Tom heavy",
+    "family": "drums",
+    "ok": true,
+    "returned": [
+      [
+        "drum_prevalence_toms_others_low_tom",
+        "Primary Low Tom"
+      ],
+      [
+        "drum_toms_others_dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "duration_16th_share",
+    "prompt": "note lengths around a 16th note",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "duration_16th_share",
+        "Primary 16th Note Duration"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "duration_32nd_share",
+    "prompt": "notes are very short 32nd note bursts",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "duration_32nd_share",
+        "Defining 32nd Note Duration"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "duration_8th_share",
+    "prompt": "each note lasts an eighth note",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "duration_8th_share",
+        "Defining 8th Note Duration"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "duration_above_whole_share",
+    "prompt": "notes sustain longer than a measure",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "duration_above_whole_share",
+        "Significant Above Whole Note Duration"
+      ],
+      [
+        "duration_max_length_beats",
+        "Contains Sustained Notes (1-2 Bars)"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "duration_half_share",
+    "prompt": "notes are held for a half note",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "duration_half_share",
+        "Primary Half Note Duration"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "duration_long_profile",
+    "prompt": "most notes are sustained a long time",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "duration_long_profile",
+        "Primary Long Duration"
+      ],
+      [
+        "duration_max_length_beats",
+        "Contains Long Sustained Notes (2-3 Bars)"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "duration_max_length_beats",
+    "prompt": "the longest note is very extended",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "duration_max_length_beats",
+        "Contains Long Sustained Notes (3-4 Bars)"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "duration_medium_profile",
+    "prompt": "note lengths are moderate",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "duration_medium_profile",
+        "Defining Medium Duration"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "duration_quarter_share",
+    "prompt": "notes sustain for a quarter note",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "duration_quarter_share",
+        "Defining Quarter Note Duration"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "duration_short_profile",
+    "prompt": "overall note durations are short staccato",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "duration_short_profile",
+        "Defining Short Duration"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "duration_whole_share",
+    "prompt": "notes sustain a full whole note",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "duration_whole_share",
+        "Defining Whole Note Duration"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "dynamics_accents_presence",
+    "prompt": "there are strong accent hits that stand out",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "dynamics_accents_presence",
+        "Contains Dynamic Accents"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "dynamics_average_velocity",
+    "prompt": "the whole performance is very loud and aggressive",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "dynamics_average_velocity",
+        "Hard/Aggressive Velocity"
+      ],
+      [
+        "dynamics_intensity_trend",
+        "Stable Intensity"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "dynamics_intensity_trend",
+    "prompt": "the volume increases gradually through the track",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "dynamics_intensity_trend",
+        "Building Intensity"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "dynamics_velocity_spread",
+    "prompt": "the dynamics have a very wide range",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "dynamics_velocity_spread",
+        "Wide Dynamic Range"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "grid_attempt_pct_2and4",
+    "prompt": "the two and four positions are attacked very consistently across all instruments",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "grid_attempt_pct_2and4",
+        "High Attempts"
+      ],
+      [
+        "grid_success_pct_2and4",
+        "High Success"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "grid_attempt_pct_beat3",
+    "prompt": "beat three receives a strong attack",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "grid_attempt_pct_beat3",
+        "High Attempts"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "grid_attempt_pct_even1",
+    "prompt": "the even bar downbeat is attacked regularly",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "grid_attempt_pct_even1",
+        "High Attempts"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "grid_attempt_pct_odd1",
+    "prompt": "the odd bar downbeat is hit consistently",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "grid_attempt_pct_odd1",
+        "High Attempts"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "grid_attempt_pct_offbeat",
+    "prompt": "the offbeat upbeats are accented regularly",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "grid_attempt_pct_offbeat",
+        "High Attempts"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "grid_success_pct_2and4",
+    "prompt": "the two and four positions land with perfect accuracy across all instruments",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "grid_success_pct_2and4",
+        "High Success"
+      ],
+      [
+        "grid_attempt_pct_2and4",
+        "High Attempts"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "grid_success_pct_beat3",
+    "prompt": "each beat three lands on the grid",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "grid_attempt_pct_beat3",
+        "High Attempts"
+      ],
+      [
+        "grid_success_pct_beat3",
+        "High Success"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "grid_success_pct_even1",
+    "prompt": "the even bar downbeats are accurate",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "grid_success_pct_even1",
+        "High Success"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "grid_success_pct_odd1",
+    "prompt": "the odd bar downbeats are landed perfectly",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "grid_success_pct_odd1",
+        "High Success"
+      ],
+      [
+        "grid_attempt_pct_odd1",
+        "High Attempts"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "grid_success_pct_offbeat",
+    "prompt": "every offbeat lands in the pocket",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "grid_attempt_pct_offbeat",
+        "High Attempts"
+      ],
+      [
+        "grid_success_pct_offbeat",
+        "High Success"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "groove_macro_jitter",
+    "prompt": "the timing is very tight and locked",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "groove_macro_jitter",
+        "Tight Macro Pocket"
+      ],
+      [
+        "groove_micro_jitter",
+        "Tight Micro Execution"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "groove_micro_jitter",
+    "prompt": "humanized natural feel",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "groove_micro_jitter",
+        "Organic Micro Execution"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "groove_swing_shuffle_ratio",
+    "prompt": "the rhythm has a pronounced swing feel",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "groove_swing_shuffle_ratio",
+        "Heavy Swing / Shuffle"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "harmonic_dissonance_pct",
+    "prompt": "very dissonant tense harmony",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "harmonic_dissonance_pct",
+        "Primary Dissonance"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "harmonic_imperfect_consonance_pct",
+    "prompt": "warm rich thirds and sixths harmony",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "harmonic_imperfect_consonance_pct",
+        "Primary Imperfect Consonance"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "harmonic_perfect_consonance_pct",
+    "prompt": "lots of open fifths and power chords",
+    "family": "pitched",
+    "ok": false,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_07_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "melodic_interval_vocabulary_count",
+    "prompt": "focused narrow interval palette",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_interval_vocabulary_count",
+        "Focused Melodic Interval Palette"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "melodic_intervals_absolute_median_semitones",
+    "prompt": "lots of stepwise scalar motion",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_absolute_median_semitones",
+        "Stepwise / Scalar Melodic Motion"
+      ],
+      [
+        "melodic_intervals_max_leap_semitones",
+        "No Leaps (< Perfect 4th)"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "melodic_intervals_max_leap_semitones",
+    "prompt": "melody has huge octave leaps",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_max_leap_semitones",
+        "Contains Extreme Leaps (>= Octave)"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "melodic_intervals_pct_ascending",
+    "prompt": "melody rises upward throughout",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_ascending",
+        "Defining Ascending Motion"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "melodic_intervals_pct_descending",
+    "prompt": "melody falls downward throughout",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_descending",
+        "Defining Descending Motion"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "melodic_intervals_sequence_repetition_pct",
+    "prompt": "repetitive melodic patterns",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_sequence_repetition_pct",
+        "Repetitive Interval Patterns"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "metadata_instrument_family",
+    "prompt": "synth lead",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "metadata_instrument_family",
+        "Synth Lead"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "metadata_root_key",
+    "prompt": "the tonal center is the note F",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "metadata_root_key",
+        "F"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "metadata_scale_type",
+    "prompt": "the key signature indicates major mode",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "metadata_scale_type",
+        "Major"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "metadata_time_sig_den",
+    "prompt": "quarter note as the beat unit",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "metadata_time_sig_den",
+        "4"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "metadata_time_sig_num",
+    "prompt": "four beats to the measure",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "metadata_time_sig_num",
+        "4"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_00_semitones",
+    "prompt": "vertical intervals are mostly unison",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_00_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_01_semitones",
+    "prompt": "vertical intervals are mostly minor second",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_01_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_02_semitones",
+    "prompt": "vertical intervals are mostly major second",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_02_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_03_semitones",
+    "prompt": "vertical intervals are mostly minor third",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_03_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_04_semitones",
+    "prompt": "vertical intervals are mostly major third",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_04_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_05_semitones",
+    "prompt": "vertical intervals are mostly perfect fourth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_05_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_06_semitones",
+    "prompt": "vertical intervals are mostly tritone / augmented fourth / diminished fifth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_06_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_07_semitones",
+    "prompt": "vertical intervals are mostly perfect fifth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_07_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_08_semitones",
+    "prompt": "vertical intervals are mostly minor sixth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_08_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_09_semitones",
+    "prompt": "vertical intervals are mostly major sixth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_09_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_10_semitones",
+    "prompt": "vertical intervals are mostly minor seventh",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_10_semitones",
+        "Primary"
+      ],
+      [
+        "harmonic_dissonance_pct",
+        "Primary Dissonance"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_11_semitones",
+    "prompt": "vertical intervals are mostly major seventh",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_11_semitones",
+        "Primary"
+      ],
+      [
+        "harmonic_dissonance_pct",
+        "Primary Dissonance"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_12_semitones",
+    "prompt": "vertical intervals are mostly octave",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_12_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_13_semitones",
+    "prompt": "vertical intervals are mostly minor ninth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_13_semitones",
+        "Primary"
+      ],
+      [
+        "harmonic_dissonance_pct",
+        "Primary Dissonance"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_14_semitones",
+    "prompt": "vertical intervals are mostly major ninth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_14_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_15_semitones",
+    "prompt": "vertical intervals are mostly minor tenth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_15_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_16_semitones",
+    "prompt": "vertical intervals are mostly major tenth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_16_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_17_semitones",
+    "prompt": "vertical intervals are mostly eleventh",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_17_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_18_semitones",
+    "prompt": "vertical intervals are mostly augmented eleventh",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_18_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_19_semitones",
+    "prompt": "vertical intervals are mostly minor twelfth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_19_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_20_semitones",
+    "prompt": "vertical intervals are mostly twelfth / perfect twelfth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_20_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_21_semitones",
+    "prompt": "vertical intervals are mostly minor thirteenth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_21_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_22_semitones",
+    "prompt": "vertical intervals are mostly major thirteenth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_22_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_23_semitones",
+    "prompt": "vertical intervals are mostly minor fourteenth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_23_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_harmonic_intervals_pct_24_semitones",
+    "prompt": "vertical intervals are mostly double octave / fifteenth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_harmonic_intervals_pct_24_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_asc_10_semitones",
+    "prompt": "melody mostly leaps up by minor seventh",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_melodic_intervals_pct_asc_10_semitones",
+        "Primary"
+      ],
+      [
+        "melodic_intervals_absolute_median_semitones",
+        "Angular / Leaping Melodic Motion"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_asc_11_semitones",
+    "prompt": "melody mostly leaps up by major seventh",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_ascending",
+        "Primary Ascending Motion"
+      ],
+      [
+        "profile_melodic_intervals_pct_asc_11_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_asc_12_semitones",
+    "prompt": "melody mostly leaps up by octave",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_melodic_intervals_pct_asc_12_semitones",
+        "Primary"
+      ],
+      [
+        "melodic_intervals_pct_ascending",
+        "Primary Ascending Motion"
+      ],
+      [
+        "melodic_intervals_absolute_median_semitones",
+        "Angular / Leaping Melodic Motion"
+      ],
+      [
+        "melodic_intervals_max_leap_semitones",
+        "Contains Extreme Leaps (>= Octave)"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_asc_13plus_semitones",
+    "prompt": "huge upward leaps beyond an octave",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_melodic_intervals_pct_asc_13plus_semitones",
+        "Primary"
+      ],
+      [
+        "melodic_intervals_max_leap_semitones",
+        "Contains Extreme Leaps (>= Octave)"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_asc_1_semitones",
+    "prompt": "melody mostly leaps up by minor second",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_ascending",
+        "Primary Ascending Motion"
+      ],
+      [
+        "profile_melodic_intervals_pct_asc_1_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_asc_2_semitones",
+    "prompt": "melody mostly leaps up by major second",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_melodic_intervals_pct_asc_2_semitones",
+        "Primary"
+      ],
+      [
+        "melodic_intervals_pct_ascending",
+        "Primary Ascending Motion"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_asc_3_semitones",
+    "prompt": "melody mostly leaps up by minor third",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_ascending",
+        "Primary Ascending Motion"
+      ],
+      [
+        "profile_melodic_intervals_pct_asc_3_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_asc_4_semitones",
+    "prompt": "melody mostly leaps up by major third",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_ascending",
+        "Primary Ascending Motion"
+      ],
+      [
+        "profile_melodic_intervals_pct_asc_4_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_asc_5_semitones",
+    "prompt": "melody mostly leaps up by perfect fourth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_melodic_intervals_pct_asc_5_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_asc_6_semitones",
+    "prompt": "melody mostly leaps up by tritone",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_ascending",
+        "Primary Ascending Motion"
+      ],
+      [
+        "profile_melodic_intervals_pct_asc_6_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_asc_7_semitones",
+    "prompt": "melody mostly leaps up by perfect fifth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_melodic_intervals_pct_asc_7_semitones",
+        "Primary"
+      ],
+      [
+        "melodic_intervals_pct_ascending",
+        "Primary Ascending Motion"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_asc_8_semitones",
+    "prompt": "melody mostly leaps up by minor sixth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_melodic_intervals_pct_asc_8_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_asc_9_semitones",
+    "prompt": "melody mostly leaps up by major sixth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_melodic_intervals_pct_asc_9_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_desc_10_semitones",
+    "prompt": "melody mostly falls down by minor seventh",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_descending",
+        "Primary Descending Motion"
+      ],
+      [
+        "profile_melodic_intervals_pct_desc_10_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_desc_11_semitones",
+    "prompt": "melody mostly falls down by major seventh",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_descending",
+        "Primary Descending Motion"
+      ],
+      [
+        "profile_melodic_intervals_pct_desc_11_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_desc_12_semitones",
+    "prompt": "melody mostly falls down by octave",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_descending",
+        "Primary Descending Motion"
+      ],
+      [
+        "profile_melodic_intervals_pct_desc_12_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_desc_13plus_semitones",
+    "prompt": "huge downward leaps beyond an octave",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_melodic_intervals_pct_desc_13plus_semitones",
+        "Defining"
+      ],
+      [
+        "melodic_intervals_max_leap_semitones",
+        "Contains Extreme Leaps (>= Octave)"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_desc_1_semitones",
+    "prompt": "melody mostly falls down by minor second",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_descending",
+        "Primary Descending Motion"
+      ],
+      [
+        "profile_melodic_intervals_pct_desc_1_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_desc_2_semitones",
+    "prompt": "melody mostly falls down by major second",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_descending",
+        "Primary Descending Motion"
+      ],
+      [
+        "profile_melodic_intervals_pct_desc_2_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_desc_3_semitones",
+    "prompt": "melody mostly falls down by minor third",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_descending",
+        "Primary Descending Motion"
+      ],
+      [
+        "profile_melodic_intervals_pct_desc_3_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_desc_4_semitones",
+    "prompt": "melody mostly falls down by major third",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_descending",
+        "Primary Descending Motion"
+      ],
+      [
+        "profile_melodic_intervals_pct_desc_4_semitones",
+        "Significant"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_desc_5_semitones",
+    "prompt": "melody mostly falls down by perfect fourth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_descending",
+        "Primary Descending Motion"
+      ],
+      [
+        "profile_melodic_intervals_pct_desc_5_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_desc_6_semitones",
+    "prompt": "melody mostly falls down by tritone",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_descending",
+        "Primary Descending Motion"
+      ],
+      [
+        "profile_melodic_intervals_pct_desc_6_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_desc_7_semitones",
+    "prompt": "melody mostly falls down by perfect fifth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_descending",
+        "Primary Descending Motion"
+      ],
+      [
+        "profile_melodic_intervals_pct_desc_7_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_desc_8_semitones",
+    "prompt": "melody mostly falls down by minor sixth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_melodic_intervals_pct_desc_8_semitones",
+        "Primary"
+      ],
+      [
+        "melodic_intervals_pct_descending",
+        "Primary Descending Motion"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_desc_9_semitones",
+    "prompt": "melody mostly falls down by major sixth",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "melodic_intervals_pct_descending",
+        "Primary Descending Motion"
+      ],
+      [
+        "profile_melodic_intervals_pct_desc_9_semitones",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "profile_melodic_intervals_pct_static",
+    "prompt": "melody restates the same note",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "profile_melodic_intervals_pct_static",
+        "Primary"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "register_boundary_shift_semitones",
+    "prompt": "register shifts dramatically",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "register_boundary_shift_semitones",
+        "Active Register Migration"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "register_highest_note_midi",
+    "prompt": "reaching the soprano range",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "register_highest_note_midi",
+        "Register: High"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "register_lowest_note_midi",
+    "prompt": "dropping to deep bass notes",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "register_lowest_note_midi",
+        "Register: Sub-Bass"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "register_median_note_midi",
+    "prompt": "sits in the mid register",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "register_median_note_midi",
+        "Register: Mid"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "register_spread_semitones",
+    "prompt": "very narrow focused range",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "register_spread_semitones",
+        "Compact Pitch Range (< 1 Octave)"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "rhythmic_density_average_events_per_beat",
+    "prompt": "very busy frantic rhythm",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "rhythmic_density_average_events_per_beat",
+        "Frantic"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "rhythmic_density_bar_to_bar_evolution",
+    "prompt": "rhythm changes drastically from bar to bar",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "rhythmic_density_bar_to_bar_evolution",
+        "Volatile Bar Event Density"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "rhythmic_density_burstiness",
+    "prompt": "steady even density",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "rhythmic_density_burstiness",
+        "Uniform Density"
+      ],
+      [
+        "rhythmic_density_bar_to_bar_evolution",
+        "Constant Bar Event Density"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "rhythmic_density_trend",
+    "prompt": "density rises toward the end",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "rhythmic_density_trend",
+        "Rising Density / Speeding Up"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "rhythmic_density_turnaround_shift",
+    "prompt": "drum fill at the end of the phrase",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "rhythmic_density_turnaround_shift",
+        "Turnaround Fill"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "spacing_16th_share",
+    "prompt": "steady 16th note spacing between attacks",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "spacing_16th_share",
+        "Defining 16th Note Spacing"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "spacing_32nd_share",
+    "prompt": "notes cluster at the 32nd note level",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "spacing_32nd_share",
+        "Primary 32nd Note Spacing"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "spacing_8th_share",
+    "prompt": "attacks land on every eighth note",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "spacing_8th_share",
+        "Defining 8th Note Spacing"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "spacing_above_whole_share",
+    "prompt": "gaps longer than a whole measure",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "spacing_above_whole_share",
+        "Defining Above Whole Note Spacing"
+      ],
+      [
+        "spacing_max_silence_beats",
+        "Long Max Silence (1-2 Bars)"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "spacing_half_share",
+    "prompt": "attacks every half note creating an open feel",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "spacing_half_share",
+        "Defining Half Note Spacing"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "spacing_long_profile",
+    "prompt": "the general onset spacing profile is long and spread out",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "spacing_long_profile",
+        "Primary Long Spacing"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "spacing_max_silence_beats",
+    "prompt": "a long break with nothing ringing",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "spacing_max_silence_beats",
+        "Long Max Silence (2-3 Bars)"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "spacing_medium_profile",
+    "prompt": "the gaps between attacks are moderate in length",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "spacing_medium_profile",
+        "Significant Medium Spacing"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "spacing_quarter_share",
+    "prompt": "notes are spaced a quarter note apart",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "spacing_quarter_share",
+        "Defining Quarter Note Spacing"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "spacing_short_profile",
+    "prompt": "the general onset spacing profile is short and compact",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "spacing_short_profile",
+        "Primary Short Spacing"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "spacing_whole_share",
+    "prompt": "whole note gap between each attack",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "spacing_whole_share",
+        "Defining Whole Note Spacing"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "texture_avg_wide_gaps_per_burst",
+    "prompt": "wide open chord voicings",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "texture_avg_wide_gaps_per_burst",
+        "Big Chordal Spread"
+      ],
+      [
+        "texture_polyphonic_pct",
+        "Primary Chordal (3+ Notes)"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "texture_monophonic_median_pitch",
+    "prompt": "a bass line under the chords",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "texture_monophonic_median_pitch",
+        "Register: Bass"
+      ],
+      [
+        "texture_polyphonic_pct",
+        "Primary Chordal (3+ Notes)"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "texture_pct_1_notes",
+    "prompt": "texture is mostly single notes",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "texture_pct_1_notes",
+        "Primary 1 Notes"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "texture_pct_2_notes",
+    "prompt": "texture is mostly dyads two notes",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "texture_pct_2_notes",
+        "Primary 2 Notes"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "texture_pct_3_notes",
+    "prompt": "chords tend to have three notes",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "texture_pct_3_notes",
+        "Primary 3 Notes"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "texture_pct_4_notes",
+    "prompt": "most chords have four notes",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "texture_pct_4_notes",
+        "Primary 4 Notes"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "texture_pct_5_notes",
+    "prompt": "five note voicings are common",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "texture_pct_5_notes",
+        "Primary 5 Notes"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "texture_pct_6plus_notes",
+    "prompt": "chords with six plus notes",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "texture_pct_6plus_notes",
+        "Defining 6+ Notes"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "texture_polyphonic_burst_mean_duration_beats",
+    "prompt": "very sustained chordal accents",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "texture_polyphonic_burst_mean_duration_beats",
+        "Sustained Chordal Accents"
+      ],
+      [
+        "texture_polyphonic_pct",
+        "Primary Chordal (3+ Notes)"
+      ],
+      [
+        "dynamics_accents_presence",
+        "Contains Dynamic Accents"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "texture_polyphonic_burst_rate",
+    "prompt": "busy rhythmic chord comping",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "texture_polyphonic_pct",
+        "Defining Chordal (3+ Notes)"
+      ],
+      [
+        "texture_polyphonic_burst_rate",
+        "Dense Chordal Hits"
+      ],
+      [
+        "rhythmic_density_average_events_per_beat",
+        "Busy"
+      ],
+      [
+        "texture_polyphonic_burst_mean_duration_beats",
+        "Short/Staccato Chordal Stabs"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "texture_polyphonic_pct",
+    "prompt": "chords",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "texture_polyphonic_pct",
+        "Primary Chordal (3+ Notes)"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "tonality_prevalent_pitch_pct",
+    "prompt": "strong tonal center anchored",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "tonality_prevalent_pitch_pct",
+        "Anchor Centered"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "tonality_out_of_key_notes",
+    "prompt": "mostly diatonic in key",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "tonality_out_of_key_notes",
+        "1 Out-of-Key Note"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "tonality_unique_pitches_count",
+    "prompt": "drone-like single pitch focus",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "tonality_unique_pitches_count",
+        "1 Pitch Class"
+      ],
+      [
+        "tonality_prevalent_pitch_pct",
+        "Anchor Centered"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "concept": "tonality_unique_pitches_count_trend",
+    "prompt": "pitch vocabulary expands over time",
+    "family": "pitched",
+    "ok": true,
+    "returned": [
+      [
+        "tonality_unique_pitches_count_trend",
+        "Expanding Pitch Vocabulary"
+      ]
+    ],
+    "error": null
+  }
+]

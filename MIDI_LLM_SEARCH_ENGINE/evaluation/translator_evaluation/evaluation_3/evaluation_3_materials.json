@@ -1,0 +1,1950 @@
+{
+  "drum_hats_cymbals_dynamics_average_velocity": [
+    {
+      "paraphrase": "hats/cymbals: the whole part is played at full blast, pushed to the front of the mix",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "hats/cymbals: slammed at full force the entire time",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "hats/cymbals: hushed and barely-there from start to finish",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "hats/cymbals: set to a middling strength",
+      "direction": "mid"
+    }
+  ],
+  "drum_hats_cymbals_grid_attempt_pct_beat3": [
+    {
+      "paraphrase": "hats/cymbals: beat three is struck on every pass and holds exactly to the beat",
+      "direction": "high",
+      "pair": "drum_hats_cymbals_grid_success_pct_beat3",
+      "pair_direction": "high"
+    },
+    {
+      "paraphrase": "hats/cymbals: beat three is struck often but the placement wobbles off the mark",
+      "direction": "high",
+      "pair": "drum_hats_cymbals_grid_success_pct_beat3",
+      "pair_direction": "low"
+    },
+    {
+      "paraphrase": "hats/cymbals: beat three rarely sounds but precise when sounds",
+      "direction": "low",
+      "pair": "drum_hats_cymbals_grid_success_pct_beat3",
+      "pair_direction": "high"
+    },
+    {
+      "paraphrase": "hats/cymbals: beat three barely sounds and when sounds is off the grid",
+      "direction": "low",
+      "pair": "drum_hats_cymbals_grid_success_pct_beat3",
+      "pair_direction": "low"
+    }
+  ],
+  "drum_hats_cymbals_grid_macro_jitter": [
+    {
+      "paraphrase": "hats/cymbals: hits keep drifting away from the beat",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "hats/cymbals: the placement snaps exactly to the beat with no give",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "hats/cymbals: a pulse that sways and wanders",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "hats/cymbals: careless, slipshod delivery",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "hats/cymbals: performed with impeccable control",
+      "direction": "low"
+    }
+  ],
+  "drum_hats_cymbals_rhythmic_density_bar_to_bar_evolution": [
+    {
+      "paraphrase": "hats/cymbals: rhythmically morphs across bars",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "hats/cymbals: the onset amount swings widely from bar to bar",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "hats/cymbals:  the same number of hits in all bars",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "hats/cymbals: motion shifts as the preformance progresses",
+      "direction": "high"
+    }
+  ],
+  "drum_hats_cymbals_spacing_16th_share": [
+    {
+      "paraphrase": "hats/cymbals: rapid sixteenth hits",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "hats/cymbals: even sixteenth-note spans between each strike",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "hats/cymbals: no sixteenth-note spans between hits",
+      "direction": "low"
+    }
+  ],
+  "drum_hats_cymbals_spacing_half_share": [
+    {
+      "paraphrase": "hats/cymbals: mainly have half-note spans",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "hats/cymbals: strikes on each half-note",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "hats/cymbals: no half-note spans between hits",
+      "direction": "low"
+    }
+  ],
+  "drum_hats_cymbals_spacing_quarter_share": [
+    {
+      "paraphrase": "hats/cymbals: quarter note strikes",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "hats/cymbals: quarter-note intervals fall between the notes",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "hats/cymbals: no quarter-note spans between hits",
+      "direction": "low"
+    }
+  ],
+  "drum_kick_dynamics_accents_presence": [
+    {
+      "paraphrase": "kick: certain strikes flash sharply",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "kick: forceful, prominent strikes flash sharply",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "kick: certain notes carry far more weight than the others",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "kick: every note is even, only an unchanging strength",
+      "direction": "low"
+    }
+  ],
+  "drum_kick_grid_attempt_pct_2and4": [
+    {
+      "paraphrase": "kick: beats two and four are struck on every pass and hold exactly to the beat",
+      "direction": "high",
+      "pair": "drum_kick_grid_success_pct_2and4",
+      "pair_direction": "high"
+    },
+    {
+      "paraphrase": "kick: beats two and four are struck often but fall badly off the mark",
+      "direction": "high",
+      "pair": "drum_kick_grid_success_pct_2and4",
+      "pair_direction": "low"
+    },
+    {
+      "paraphrase": "kick: beats two and four are rarely sounds but precise when sounds",
+      "direction": "low",
+      "pair": "drum_kick_grid_success_pct_2and4",
+      "pair_direction": "high"
+    },
+    {
+      "paraphrase": "kick: beats two and four barely ever sound, and when they sound they fall badly off the grid",
+      "direction": "low",
+      "pair": "drum_kick_grid_success_pct_2and4",
+      "pair_direction": "low"
+    }
+  ],
+  "drum_kick_grid_attempt_pct_offbeat": [
+    {
+      "paraphrase": "kick: the offbeats are struck on every pass and hold exactly to the beat",
+      "direction": "high",
+      "pair": "drum_kick_grid_success_pct_offbeat",
+      "pair_direction": "high"
+    },
+    {
+      "paraphrase": "kick: the offbeats are struck often but the placement wobbles off the mark",
+      "direction": "high",
+      "pair": "drum_kick_grid_success_pct_offbeat",
+      "pair_direction": "low"
+    },
+    {
+      "paraphrase": "kick: the offbeats rarely sound but precise when sound",
+      "direction": "low",
+      "pair": "drum_kick_grid_success_pct_offbeat",
+      "pair_direction": "high"
+    },
+    {
+      "paraphrase": "kick: the offbeats barely sound and when sound are off the grid",
+      "direction": "low",
+      "pair": "drum_kick_grid_success_pct_offbeat",
+      "pair_direction": "low"
+    }
+  ],
+  "drum_kick_rhythmic_density_average_events_per_beat": [
+    {
+      "paraphrase": "kick: rarely plays",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "kick: an extremely feverish pulse",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "kick: a lean, stripped-down vibe",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "kick: an unending barrage of kicks that never lets up",
+      "direction": "high"
+    }
+  ],
+  "drum_kick_rhythmic_density_turnaround_shift": [
+    {
+      "paraphrase": "kick: a pivot at the piece's seam",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "kick: a flurry that appears just as the section ends",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "kick: the preformance cuts off at the very tail of the piece",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "kick: the hits flips sharply where the piece turns over to start again",
+      "direction": "high"
+    }
+  ],
+  "drum_kick_spacing_above_whole_share": [
+    {
+      "paraphrase": "kick: time between hits often exceeds a full bar",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "kick: the strikes have more than a whole bar between them",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "kick: spans never exceed a full bar",
+      "direction": "low"
+    }
+  ],
+  "drum_kick_spacing_medium_profile": [
+    {
+      "paraphrase": "kick: moderately spaced hits",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "kick: the spans between strikes sit in the middle range of note values",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "kick: spans between hits are never medium",
+      "direction": "low"
+    }
+  ],
+  "drum_prevalence_hats_cymbals_closed_hat": [
+    {
+      "paraphrase": "closed hi-hat clearly defines the cymbal sound",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Closed Hat features heavily in the kit",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Closed Hat is used constantly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Closed Hat appears quite regularly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Closed Hat is missing entirely from the kit",
+      "direction": "low"
+    }
+  ],
+  "drum_prevalence_hats_cymbals_crash_1": [
+    {
+      "paraphrase": "crash #1 is the clear standout cymbal",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Crash 1 featured heavily in the kit",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Crash 1 is used constantly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Crash 1 appears quite regularly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Crash 1 is missing entirely from the kit",
+      "direction": "low"
+    }
+  ],
+  "drum_prevalence_hats_cymbals_open_hat": [
+    {
+      "paraphrase": "open hi-hat is absolutely everywhere",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Open Hat features heavily in the kit",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Open Hat is used constantly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Open Hat appears quite regularly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Open Hat is missing entirely from the kit",
+      "direction": "low"
+    }
+  ],
+  "drum_prevalence_kick_kick_1": [
+    {
+      "paraphrase": "kick #1 is the deep foundational",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Kick 1 features heavily in the kit",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Kick 1 is used constantly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Kick 1 appears quite regularly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Kick 1 is missing entirely from the kit",
+      "direction": "low"
+    }
+  ],
+  "drum_prevalence_kick_kick_2": [
+    {
+      "paraphrase": "Kick 2 features heavily in the kit",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Kick 2 is used constantly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Kick 2 appears quite regularly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Kick 2 is missing entirely from the kit",
+      "direction": "low"
+    }
+  ],
+  "drum_prevalence_snare_clap_clap": [
+    {
+      "paraphrase": "claps are a main textural element",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Clap features heavily in the kit",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Clap is used throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Clap appears often",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Clap is missing entirely from the kit",
+      "direction": "low"
+    }
+  ],
+  "drum_prevalence_snare_clap_rimshot": [
+    {
+      "paraphrase": "rimshots are a signature part of the part",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Rimshot features heavily in the kit",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Rimshot is used throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Rimshot appears often",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Rimshot is missing entirely from the kit",
+      "direction": "low"
+    }
+  ],
+  "drum_prevalence_snare_clap_snare_1": [
+    {
+      "paraphrase": "snare #1 carries the main backbeat",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Snare 1 features heavily in the kit",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Snare 1 is used constantly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Snare 1 appears quite regularly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Snare 1 is missing entirely from the kit",
+      "direction": "low"
+    }
+  ],
+  "drum_prevalence_toms_others_hi_mid_tom": [
+    {
+      "paraphrase": "hi-mid tom features prominently",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Hi Mid Tom features heavily and constantly in the kit",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Hi Mid Tom is used constantly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Hi Mid Tom appears quite regularly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Hi Mid Tom is missing entirely, completely from the kit",
+      "direction": "low"
+    }
+  ],
+  "drum_prevalence_toms_others_high_tom": [
+    {
+      "paraphrase": "high tom fills are a staple",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "High Tom features heavily in the kit",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "High Tom is used constantly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "High Tom appears quite regularly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "High Tom is missing entirely from the kit",
+      "direction": "low"
+    }
+  ],
+  "drum_prevalence_toms_others_low_tom": [
+    {
+      "paraphrase": "Low Tom features heavily in the kit",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Low Tom is used constantly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Low Tom appears quite regularly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "Low Tom is missing entirely from the kit",
+      "direction": "low"
+    }
+  ],
+  "drum_snare_clap_dynamics_intensity_trend": [
+    {
+      "paraphrase": "snare/clap: the strength builds over the course of the piece",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "snare/clap: the strength climbs steadily across the tune",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "snare/clap: softens as the piece wraps up",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "snare/clap: the strength holds the same the whole way",
+      "direction": "mid"
+    }
+  ],
+  "drum_snare_clap_grid_attempt_pct_even1": [
+    {
+      "paraphrase": "snare/clap: the even-bar on-beat is struck on every pass and holds exactly to the beat",
+      "direction": "high",
+      "pair": "drum_snare_clap_grid_success_pct_even1",
+      "pair_direction": "high"
+    },
+    {
+      "paraphrase": "snare/clap: the even-bar on-beat is struck often but falls badly off the mark",
+      "direction": "high",
+      "pair": "drum_snare_clap_grid_success_pct_even1",
+      "pair_direction": "low"
+    },
+    {
+      "paraphrase": "snare/clap: the even-bar on-beat rarely sounds but precise when sounds",
+      "direction": "low",
+      "pair": "drum_snare_clap_grid_success_pct_even1",
+      "pair_direction": "high"
+    },
+    {
+      "paraphrase": "snare/clap: the even-bar on-beat barely sounds, and when it sounds it falls off the grid",
+      "direction": "low",
+      "pair": "drum_snare_clap_grid_success_pct_even1",
+      "pair_direction": "low"
+    }
+  ],
+  "drum_snare_clap_grid_micro_jitter": [
+    {
+      "paraphrase": "snare/clap: the 32nd-note placement shifts a tiny touch",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "snare/clap: a lifelike, flowing touch",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "snare/clap: faintly irregular fine-grained placement",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "snare/clap: stiffly even and mechanical",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "snare/clap: tidy yet faintly flowing",
+      "direction": "mid"
+    }
+  ],
+  "drum_snare_clap_rhythmic_density_burstiness": [
+    {
+      "paraphrase": "snare/clap: notes are grouped tightly in eruptions",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "snare/clap: even, flat distribution of hits across the piece",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "snare/clap: a hefty flurry or a sudden cascade of notes",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "snare/clap: the hits erupts in one surge",
+      "direction": "high"
+    }
+  ],
+  "drum_snare_clap_spacing_32nd_share": [
+    {
+      "paraphrase": "snare/clap: thirty-second hits are the most common",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "snare/clap: notes clump densely at the thirty-second-note tier",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "snare/clap: no thirty-second-note spans between strikes",
+      "direction": "low"
+    }
+  ],
+  "drum_snare_clap_spacing_long_profile": [
+    {
+      "paraphrase": "snare/clap: widely spaced hits",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "snare/clap: the attack are distanced and drawn out",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "snare/clap: the spans between strikes are never generous",
+      "direction": "low"
+    }
+  ],
+  "drum_snare_clap_spacing_short_profile": [
+    {
+      "paraphrase": "snare/clap: hits crammed into narrow time spans",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "snare/clap: the attack spans run fast and squeezed",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "snare/clap: the spans between attack are never small",
+      "direction": "low"
+    }
+  ],
+  "drum_toms_others_dynamics_velocity_spread": [
+    {
+      "paraphrase": "toms: the part has a serious difference between its softest and loudest",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "toms: the strength swings across a broad range",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "toms: the force of the events varies widely across the part",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "toms: all events have one unchanging force amount",
+      "direction": "low"
+    }
+  ],
+  "drum_toms_others_grid_attempt_pct_odd1": [
+    {
+      "paraphrase": "toms: the on-beat on the uneven-numbered bars holds the pulse firmly and never wavers",
+      "direction": "high",
+      "pair": "drum_toms_others_grid_success_pct_odd1",
+      "pair_direction": "high"
+    },
+    {
+      "paraphrase": "toms: the uneven-numbered-bar on-beat occurs often but the placement comes unhinged",
+      "direction": "high",
+      "pair": "drum_toms_others_grid_success_pct_odd1",
+      "pair_direction": "low"
+    },
+    {
+      "paraphrase": "toms: the uneven-numbered-bar on-beat seldom occurs but locks when it does",
+      "direction": "low",
+      "pair": "drum_toms_others_grid_success_pct_odd1",
+      "pair_direction": "high"
+    },
+    {
+      "paraphrase": "toms: the uneven-numbered-bar on-beat is almost never struck and slips off the grid when it is",
+      "direction": "low",
+      "pair": "drum_toms_others_grid_success_pct_odd1",
+      "pair_direction": "low"
+    }
+  ],
+  "drum_toms_others_rhythmic_density_trend": [
+    {
+      "paraphrase": "toms: the number of notes climbs as it goes",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "toms: more hits as it nears the close",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "toms: the action dies down at the finish",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "toms: packing in more hits as it goes on",
+      "direction": "high"
+    }
+  ],
+  "drum_toms_others_spacing_8th_share": [
+    {
+      "paraphrase": "toms: eighth note attack pacing",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "toms: strikes fall on each eighth note",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "toms: no eighth-note spans exist between hits",
+      "direction": "low"
+    }
+  ],
+  "drum_toms_others_spacing_max_silence_beats": [
+    {
+      "paraphrase": "toms: stretches of rest are large",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "toms: lengthy stretches of rest with no hits",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "toms: an unbroken wash with no rest at all",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "toms: a large silent hole in the middle",
+      "direction": "high"
+    }
+  ],
+  "drum_toms_others_spacing_whole_share": [
+    {
+      "paraphrase": "toms: whole note attack spans",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "toms: a whole note sits between each strike",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "toms: no whole-note spans exist between hits",
+      "direction": "low"
+    }
+  ],
+  "duration_16th_share": [
+    {
+      "paraphrase": "mostly sixteenth-note-lasting notes",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the note values cluster around sixteenth notes",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no notes lasting a sixteenth note",
+      "direction": "low"
+    }
+  ],
+  "duration_32nd_share": [
+    {
+      "paraphrase": "mainly thirty-second-note values",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the notes are for the mostly very brief thirty-second flashes",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no thirty-second-note values",
+      "direction": "low"
+    }
+  ],
+  "duration_8th_share": [
+    {
+      "paraphrase": "eighth-lasting notes prevail",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the notes are mostly quick, brief, clipped eighth-notes",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "none of the notes are eighth-note values",
+      "direction": "low"
+    }
+  ],
+  "duration_above_whole_share": [
+    {
+      "paraphrase": "notes last multibar stretches",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the notes sound past a full bar",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no notes last past a bar",
+      "direction": "low"
+    }
+  ],
+  "duration_half_share": [
+    {
+      "paraphrase": "half-note values define the note lastings",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the notes last about a full half bar, roughly",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no notes last as brief and quick as a half note",
+      "direction": "low"
+    }
+  ],
+  "duration_long_profile": [
+    {
+      "paraphrase": "notes are kept going for lasting stretches",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the notes are predominantly kept going generously",
+      "direction": "high"
+    }
+  ],
+  "duration_max_length_beats": [
+    {
+      "paraphrase": "there is a note kept going for an unusually generous amount of time",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the loop has one note kept going for a very generous span",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "even the most drawn notes never reach a quarter",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "even the most lengthy note is brief",
+      "direction": "low"
+    }
+  ],
+  "duration_medium_profile": [
+    {
+      "paraphrase": "medium lasting values are the norm",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the note values sit right in the middle",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no notes last at roughly a medium span of time",
+      "direction": "low"
+    }
+  ],
+  "duration_quarter_share": [
+    {
+      "paraphrase": "quarter-lasting notes are the most common",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the notes last about a full quarter note, roughly",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no notes last roughly the amount of a quarter note",
+      "direction": "low"
+    }
+  ],
+  "duration_short_profile": [
+    {
+      "paraphrase": "the notes stay brief overall",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the notes emerge brief and clipped",
+      "direction": "high"
+    }
+  ],
+  "duration_whole_share": [
+    {
+      "paraphrase": "whole-bar values are standard",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the notes play for an entire whole bar",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no notes last roughly the amount of a whole note",
+      "direction": "low"
+    }
+  ],
+  "dynamics_average_velocity": [
+    {
+      "paraphrase": "the whole part is played at full blast, pushed to the front of the mix",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the part is struck forcefully and loudly throughout",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the part is hushed and tender throughout",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "medium strength",
+      "direction": "mid"
+    }
+  ],
+  "grid_attempt_pct_2and4": [
+    {
+      "paraphrase": "pitched: beats two and four are struck on every pass and hold exactly to the beat",
+      "direction": "high",
+      "pair": "grid_success_pct_2and4",
+      "pair_direction": "high"
+    },
+    {
+      "paraphrase": "pitched: beats two and four are struck often but fall badly off the mark",
+      "direction": "high",
+      "pair": "grid_success_pct_2and4",
+      "pair_direction": "low"
+    },
+    {
+      "paraphrase": "pitched: beats two and four rarely sound but precise when sounding",
+      "direction": "low",
+      "pair": "grid_success_pct_2and4",
+      "pair_direction": "high"
+    },
+    {
+      "paraphrase": "pitched: beats two and four barely sound, and when they sound they fall off the grid",
+      "direction": "low",
+      "pair": "grid_success_pct_2and4",
+      "pair_direction": "low"
+    }
+  ],
+  "grid_macro_jitter": [
+    {
+      "paraphrase": "the placement veers away from the beat",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the placement is dead-on and rock-solid",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "drooping and slipping away from the pulse",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the performance reads as wandering and chaotic around the grid",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the part is executed with tidy control",
+      "direction": "low"
+    }
+  ],
+  "harmonic_dissonance_pct": [
+    {
+      "paraphrase": "mostly avoids clashing intervals",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "the harmony is strained and jarring",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the harmony is packed with clashing, jarring intervals",
+      "direction": "high"
+    }
+  ],
+  "harmonic_imperfect_consonance_pct": [
+    {
+      "paraphrase": "the harmony leans quite strongly high toward imperfect consonance",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the harmony is built largely on imperfect consonances",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the harmony leans away drastically from imperfect consonance",
+      "direction": "low"
+    }
+  ],
+  "harmonic_perfect_consonance_pct": [
+    {
+      "paraphrase": "the stacked voicing mostly settles neatly into perfect consonance",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the harmony rests on pure, settled intervals",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the harmony only rarely reaches perfect consonance",
+      "direction": "low"
+    }
+  ],
+  "melodic_interval_vocabulary_count": [
+    {
+      "paraphrase": "melody draws on a generous variety of intervals",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody conforms to a limited selection of intervals",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "the melody calls on a broad selection of intervals",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody spans a broad variety of intervals",
+      "direction": "high"
+    }
+  ],
+  "melodic_intervals_absolute_median_semitones": [
+    {
+      "paraphrase": "melody features generous intervals",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody mostly advances in slight amounts",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "the line is jagged with serious hops",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melodic intervals stay modest in span",
+      "direction": "low"
+    }
+  ],
+  "melodic_intervals_max_leap_semitones": [
+    {
+      "paraphrase": "the melody never hops far at all",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "the melody features some very drastic hops",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody glides smoothly with no hops",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "the melody's widest hop is enormous",
+      "direction": "high"
+    }
+  ],
+  "melodic_intervals_pct_ascending": [
+    {
+      "paraphrase": "pitch increments gradually throughout the melody",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the line heads ever higher",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody mostly heads higher",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody drifts up as it goes",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody rarely goes up",
+      "direction": "low"
+    }
+  ],
+  "melodic_intervals_pct_descending": [
+    {
+      "paraphrase": "the melody trends down through the passage",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the line heads steadily down",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody mostly heads lower",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody drifts down as it goes",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody rarely goes down",
+      "direction": "low"
+    }
+  ],
+  "melodic_intervals_sequence_repetition_pct": [
+    {
+      "paraphrase": "melodic cells repeat often",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody repeats itself in short loops",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "little melodic cells keep coming back",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody is always fresh and never returns",
+      "direction": "low"
+    }
+  ],
+  "metadata_instrument_family": [
+    {
+      "paraphrase": "the instrument reads as a keyboard",
+      "direction": "n/a"
+    },
+    {
+      "paraphrase": "a crisp bright synth lead",
+      "direction": "n/a"
+    },
+    {
+      "paraphrase": "a deep warm bass instrument",
+      "direction": "n/a"
+    },
+    {
+      "paraphrase": "a complete full drum kit setup",
+      "direction": "n/a"
+    },
+    {
+      "paraphrase": "a warm bright piano tone",
+      "direction": "n/a"
+    },
+    {
+      "paraphrase": "a warm mellow acoustic guitar",
+      "direction": "n/a"
+    },
+    {
+      "paraphrase": "a lush rich strings passage",
+      "direction": "n/a"
+    }
+  ],
+  "metadata_root_key": [
+    {
+      "paraphrase": "the tonic is clearly the note G",
+      "direction": "n/a"
+    },
+    {
+      "paraphrase": "the tonic is clearly the note F",
+      "direction": "n/a"
+    }
+  ],
+  "metadata_scale_type": [
+    {
+      "paraphrase": "the piece sits in minor",
+      "direction": "n/a"
+    },
+    {
+      "paraphrase": "the piece sits in major",
+      "direction": "n/a"
+    }
+  ],
+  "metadata_time_sig_num": [
+    {
+      "paraphrase": "the piece is counted in 4/4",
+      "direction": "n/a",
+      "pair": "metadata_time_sig_den",
+      "pair_direction": "n/a"
+    },
+    {
+      "paraphrase": "the piece is counted in 3/4",
+      "direction": "n/a",
+      "pair": "metadata_time_sig_den",
+      "pair_direction": "n/a"
+    },
+    {
+      "paraphrase": "the piece is counted in 6/8",
+      "direction": "n/a",
+      "pair": "metadata_time_sig_den",
+      "pair_direction": "n/a"
+    },
+    {
+      "paraphrase": "the piece is counted in 2/2",
+      "direction": "n/a",
+      "pair": "metadata_time_sig_den",
+      "pair_direction": "n/a"
+    }
+  ],
+  "profile_harmonic_intervals_pct_00_semitones": [
+    {
+      "paraphrase": "unisons are characteristic of the harmony",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the voicing leans heavily toward unison stacks",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no unison stacks ever appear in the voicing",
+      "direction": "low"
+    }
+  ],
+  "profile_harmonic_intervals_pct_03_semitones": [
+    {
+      "paraphrase": "clear three-semitone stacks",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the voicing leans heavily toward minor third stacks",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no minor third stacks ever appear in the voicing",
+      "direction": "low"
+    }
+  ],
+  "profile_harmonic_intervals_pct_06_semitones": [
+    {
+      "paraphrase": "the voicing rests almost entirely on 6-semitone intervals",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the voicing leans heavily toward tritone stacks",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "tritone stacks are everywhere in the voicing",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no tritone stacks ever appear in the voicing",
+      "direction": "low"
+    }
+  ],
+  "profile_harmonic_intervals_pct_07_semitones": [
+    {
+      "paraphrase": "7-semitone intervals shape the voicing",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the voicing leans heavily toward perfect fifth stacks",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no perfect fifth stacks ever appear in the voicing",
+      "direction": "low"
+    }
+  ],
+  "profile_harmonic_intervals_pct_09_semitones": [
+    {
+      "paraphrase": "9-semitone simultanuous-note intervals prevail",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the voicing leans heavily toward major sixth stacks",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no major sixth stacks ever appear in the voicing",
+      "direction": "low"
+    }
+  ],
+  "profile_harmonic_intervals_pct_12_semitones": [
+    {
+      "paraphrase": "octaves define the harmonic framework",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the voicing leans heavily toward octave stacks",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no octave stacks ever appear in the voicing",
+      "direction": "low"
+    }
+  ],
+  "profile_harmonic_intervals_pct_14_semitones": [
+    {
+      "paraphrase": "simultanuous-note harmonic intervals: compound 14-semitone intervals stand out",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the voicing leans heavily toward major ninth stacks",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no major ninth stacks ever appear in the voicing",
+      "direction": "low"
+    }
+  ],
+  "profile_harmonic_intervals_pct_17_semitones": [
+    {
+      "paraphrase": "stacked harmonic intervals: compound 17-semitone intervals stand out",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the voicing leans heavily toward eleventh stacks",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no eleventh stacks ever appear in the voicing",
+      "direction": "low"
+    }
+  ],
+  "profile_harmonic_intervals_pct_21_semitones": [
+    {
+      "paraphrase": "stacked harmonic intervals: compound 21-semitone intervals stand out",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the voicing leans heavily toward major thirteenth stacks",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no major thirteenth stacks ever appear in the voicing",
+      "direction": "low"
+    }
+  ],
+  "profile_melodic_intervals_pct_asc_13plus_semitones": [
+    {
+      "paraphrase": "hops past the octave take over",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "going up past the octave is recurring",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "hops wider than an octave dominate the ascent",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the ascents regularly hops wider than an octave",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "nothing ever hops past the octave",
+      "direction": "low"
+    }
+  ],
+  "profile_melodic_intervals_pct_static": [
+    {
+      "paraphrase": "the melody repeats one pitch again and again",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody holds and repeats one pitch",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "one fixed note is struck over and over",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody is always venturing to fresh notes",
+      "direction": "low"
+    }
+  ],
+  "register_boundary_shift_semitones": [
+    {
+      "paraphrase": "pitch range varies across sections",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the register changes drastically",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the range climbs higher as it goes",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the range widens over the course of the piece",
+      "direction": "high"
+    }
+  ],
+  "register_highest_note_midi": [
+    {
+      "paraphrase": "the top pitch rests near the summit",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the peak notes reach way up",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody soars up to the top pitch",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the peak notes brush the pitch extremety",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the top pitch rests in the lower register",
+      "direction": "low"
+    }
+  ],
+  "register_lowest_note_midi": [
+    {
+      "paraphrase": "the bottom pitch rests near the high-end of the range",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the bottom drops down into the bass",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "the deepest notes plunge way down into the bass",
+      "direction": "low"
+    }
+  ],
+  "register_median_note_midi": [
+    {
+      "paraphrase": "the core pitch lies near the summit of the range",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the core pitch rests in the mid-range",
+      "direction": "mid"
+    },
+    {
+      "paraphrase": "the melody mostly hangs low, rooted and settled in the bass",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "the core rests in the middle register",
+      "direction": "mid"
+    },
+    {
+      "paraphrase": "the melody's core is pinned way down low, hanging",
+      "direction": "low"
+    }
+  ],
+  "register_spread_semitones": [
+    {
+      "paraphrase": "the notes are contracted vertically",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "the note pitches all sit within a few of each other",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "the range sprawls over several octaves",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the register is small and confined",
+      "direction": "low"
+    }
+  ],
+  "rhythmic_density_average_events_per_beat": [
+    {
+      "paraphrase": "very scarce thin notes per bar",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "overflowing with hits, an endless torrent of notes",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "a lean, spare piece",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "a ceaseless, nonstop pounding pulse",
+      "direction": "high"
+    }
+  ],
+  "spacing_short_profile": [
+    {
+      "paraphrase": "note begginings are bunched closely",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the note occurences are overall spaced compact",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the time spans between notes are never small",
+      "direction": "low"
+    }
+  ],
+  "texture_avg_wide_gaps_per_burst": [
+    {
+      "paraphrase": "the chord notes are distanced apart",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the chords hang apart",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the chords sit crammed into a confined layout",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "the notes within each chord sit way apart from one another",
+      "direction": "high"
+    }
+  ],
+  "texture_pct_1_notes": [
+    {
+      "paraphrase": "single-note writing is the norm",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the writing is mostly a lone note at a time",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the writing is almost always a single line",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the writing is seldom a single line",
+      "direction": "low"
+    }
+  ],
+  "texture_pct_2_notes": [
+    {
+      "paraphrase": "pairs of notes dominate the writing",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "two notes typically play at once",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "pairs of notes seldom appear",
+      "direction": "low"
+    }
+  ],
+  "texture_pct_3_notes": [
+    {
+      "paraphrase": "three-note voicings are the usual case",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the chords usually stack exactly three notes",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "three-note voicings seldom occur",
+      "direction": "low"
+    }
+  ],
+  "texture_pct_4_notes": [
+    {
+      "paraphrase": "four-note chords are the usual standard",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "four notes typically play simultaneously per chord",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "four-note chords seldom occur",
+      "direction": "low"
+    }
+  ],
+  "texture_pct_5_notes": [
+    {
+      "paraphrase": "five-note voicings crop up repeatedly",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "five-note voicings crop up often",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "five-note voicings are rare",
+      "direction": "low"
+    }
+  ],
+  "texture_pct_6plus_notes": [
+    {
+      "paraphrase": "six or more notes often play at the same time",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "six or more notes play at the same time",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "six-note chords seldom appear",
+      "direction": "low"
+    }
+  ],
+  "texture_polyphonic_burst_mean_duration_beats": [
+    {
+      "paraphrase": "the chordal cluster is kept for an extended stretch under a single melodic line",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the chords under the melody are kept for an extended stretch",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the chords are brief and snappy",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "the chordal bursts last for a extended time",
+      "direction": "high"
+    }
+  ],
+  "texture_polyphonic_burst_rate": [
+    {
+      "paraphrase": "chords are rhythmically packed",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "chords are comped non-stop",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "a chord strikes loudly on each beat",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the chords are few and last for an extended time",
+      "direction": "low"
+    }
+  ],
+  "texture_polyphonic_pct": [
+    {
+      "paraphrase": "the writing is mostly chordal in nature",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the piece is mostly solid full chords",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "chordal, multi-note writing",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the writing stays almost entirely away from chords",
+      "direction": "low"
+    }
+  ],
+  "tonality_prevalent_pitch_pct": [
+    {
+      "paraphrase": "the tones gravitate toward a single note",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the grounding note is firmly fixed and reinforced",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "one note drones constantly all the way through",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the notes wander and the piece is unclear",
+      "direction": "low"
+    }
+  ],
+  "tonality_out_of_key_notes": [
+    {
+      "paraphrase": "remains entirely within the scale",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "the notes mostly stay safely within the scale",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "the line is thick with foreign tones that stray from the scale",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "away from any scale, with no settled tonic",
+      "direction": "high"
+    }
+  ],
+  "tonality_unique_pitches_count": [
+    {
+      "paraphrase": "broad pitch palette",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the piece covers only a few tones",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "just a plain handful of notes",
+      "direction": "low"
+    },
+    {
+      "paraphrase": "the piece covers a large number of tones",
+      "direction": "high"
+    }
+  ],
+  "tonality_unique_pitches_count_trend": [
+    {
+      "paraphrase": "fresh pitch types keep arriving as it runs",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the pitch pool broadens as it runs",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the number of note kinds broadens over time",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the variety of tones shrinks as the piece goes on",
+      "direction": "low"
+    }
+  ],
+  "profile_melodic_intervals_pct_asc_1_semitones": [
+    {
+      "paraphrase": "the line largely goes in minor second increments",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody tends to rise a minor second",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody almost never climbs a minor second",
+      "direction": "low"
+    }
+  ],
+  "profile_melodic_intervals_pct_asc_3_semitones": [
+    {
+      "paraphrase": "the line largely goes in minor third increments",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody tends to rise a minor third",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody almost never climbs a minor third",
+      "direction": "low"
+    }
+  ],
+  "profile_melodic_intervals_pct_asc_5_semitones": [
+    {
+      "paraphrase": "the line largely goes in perfect fourth increments",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody tends to rise a perfect fourth",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody almost never climbs a perfect fourth",
+      "direction": "low"
+    }
+  ],
+  "profile_melodic_intervals_pct_asc_7_semitones": [
+    {
+      "paraphrase": "the line largely goes in perfect fifth increments",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody tends to rise a perfect fifth",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody almost never climbs a perfect fifth",
+      "direction": "low"
+    }
+  ],
+  "profile_melodic_intervals_pct_asc_9_semitones": [
+    {
+      "paraphrase": "the line largely goes in major sixth increments",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody tends to rise a major sixth",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody almost never climbs a major sixth",
+      "direction": "low"
+    }
+  ],
+  "profile_melodic_intervals_pct_asc_11_semitones": [
+    {
+      "paraphrase": "the line largely goes in major seventh increments",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody tends to rise a major seventh",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody almost never climbs a major seventh",
+      "direction": "low"
+    }
+  ],
+  "profile_melodic_intervals_pct_desc_2_semitones": [
+    {
+      "paraphrase": "the line largely goes in major second decrements",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody tends to sink a major second",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody almost never drops a major second",
+      "direction": "low"
+    }
+  ],
+  "profile_melodic_intervals_pct_desc_4_semitones": [
+    {
+      "paraphrase": "the line largely goes in major third decrements",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody tends to sink a major third",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody almost never drops a major third",
+      "direction": "low"
+    }
+  ],
+  "profile_melodic_intervals_pct_desc_6_semitones": [
+    {
+      "paraphrase": "the line mostly goes in tritone decrements",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody tends to drop down by tritone",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody almost never drops a tritone",
+      "direction": "low"
+    }
+  ],
+  "profile_melodic_intervals_pct_desc_8_semitones": [
+    {
+      "paraphrase": "the line largely goes in minor sixth decrements",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody tends to sink a minor sixth",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody almost never drops a minor sixth",
+      "direction": "low"
+    }
+  ],
+  "profile_melodic_intervals_pct_desc_10_semitones": [
+    {
+      "paraphrase": "the line largely goes in minor seventh decrements",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody tends to sink a minor seventh",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody almost never drops a minor seventh",
+      "direction": "low"
+    }
+  ],
+  "profile_melodic_intervals_pct_desc_12_semitones": [
+    {
+      "paraphrase": "the line mostly goes in octave decrements",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody tends to drop down by octave",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the melody almost never drops an octave",
+      "direction": "low"
+    }
+  ],
+  "profile_harmonic_intervals_pct_01_semitones": [
+    {
+      "paraphrase": "one-semitone voicings are the clear norm",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the voicing leans heavily toward minor second stacks",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no minor second stacks ever appear in the voicing",
+      "direction": "low"
+    }
+  ],
+  "profile_harmonic_intervals_pct_11_semitones": [
+    {
+      "paraphrase": "eleven-semitone voicings are the clear norm",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the voicing leans heavily toward major seventh stacks",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no major seventh stacks ever appear in the voicing",
+      "direction": "low"
+    }
+  ],
+  "profile_harmonic_intervals_pct_13_semitones": [
+    {
+      "paraphrase": "thirteen-semitone voicings are the clear norm",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the voicing leans heavily toward minor ninth stacks",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "no minor ninth stacks ever appear in the voicing",
+      "direction": "low"
+    }
+  ],
+  "texture_mono_vs_chords_register": [
+    {
+      "paraphrase": "the single-note line hovers way above the backing",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "a lone melody hovering high above the chords",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "a melody nestled deep within the chords",
+      "direction": "mid"
+    },
+    {
+      "paraphrase": "a bass hangs beneath the chords",
+      "direction": "mid"
+    },
+    {
+      "paraphrase": "the single-note line hangs way below everything",
+      "direction": "low"
+    }
+  ],
+  "drum_prevalence_toms_others": [
+    {
+      "paraphrase": "the toms are an important part of the kit",
+      "direction": "high"
+    },
+    {
+      "paraphrase": "the toms are barely there",
+      "direction": "low"
+    }
+  ]
+}

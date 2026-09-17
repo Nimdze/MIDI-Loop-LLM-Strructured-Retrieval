@@ -1,0 +1,588 @@
+[
+  {
+    "id": "imp2_order1",
+    "query": "above all a rising rhythm density, and optionally with accented hits",
+    "presence": [
+      "rhythmic_density_trend",
+      "dynamics_accents_presence"
+    ],
+    "importance": [
+      [
+        "rhythmic_density_trend"
+      ],
+      [
+        "dynamics_accents_presence"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp2_tie1",
+    "query": "equally a driving rhythm and a climbing intensity",
+    "presence": [
+      "rhythmic_density_average_events_per_beat",
+      "dynamics_intensity_trend"
+    ],
+    "importance": [
+      [
+        "rhythmic_density_average_events_per_beat",
+        "dynamics_intensity_trend"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp2_order2",
+    "query": "the high register spread is the defining thing, would maybe go well with 2-note texture",
+    "presence": [
+      "register_spread_semitones",
+      "texture_pct_2_notes"
+    ],
+    "importance": [
+      [
+        "register_spread_semitones"
+      ],
+      [
+        "texture_pct_2_notes"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp2_order_fb1",
+    "query": "a quarter-note spacing is very important, and at most a moderately rising volume intensity",
+    "presence": [
+      "spacing_quarter_share",
+      "dynamics_intensity_trend"
+    ],
+    "importance": [
+      [
+        "spacing_quarter_share"
+      ],
+      [
+        "dynamics_intensity_trend"
+      ]
+    ],
+    "fallback": {
+      "dynamics_intensity_trend": "up"
+    }
+  },
+  {
+    "id": "imp2_tie2",
+    "query": "both a swung feel and a loose human timing",
+    "presence": [
+      "grid_macro_jitter"
+    ],
+    "importance": [
+      [
+        "grid_macro_jitter"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp2_order3",
+    "query": "most importantly imperfect consonant, a bit of movement up is also recomanded",
+    "presence": [
+      "harmonic_imperfect_consonance_pct",
+      "melodic_intervals_pct_ascending"
+    ],
+    "importance": [
+      [
+        "harmonic_imperfect_consonance_pct"
+      ],
+      [
+        "melodic_intervals_pct_ascending"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp2_tie3",
+    "query": "both: a shifting register and a large pitch variety",
+    "presence": [
+      "register_boundary_shift_semitones",
+      "tonality_unique_pitches_count"
+    ],
+    "importance": [
+      [
+        "register_boundary_shift_semitones",
+        "tonality_unique_pitches_count"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp2_order_fb2",
+    "query": "the poliphonic texture is the defining trait of the loop, and at least some long duration notes present are recomanded",
+    "presence": [
+      "texture_polyphonic_pct",
+      "duration_long_profile"
+    ],
+    "importance": [
+      [
+        "texture_polyphonic_pct"
+      ],
+      [
+        "duration_long_profile"
+      ]
+    ],
+    "fallback": {
+      "duration_long_profile": "down"
+    }
+  },
+  {
+    "id": "imp2_order4",
+    "query": "pitched: above all a bar-to-bar rhythm evolution, and maybe off-grid looseness on the 2 and 4",
+    "presence": [
+      "rhythmic_density_bar_to_bar_evolution",
+      "grid_attempt_pct_2and4"
+    ],
+    "importance": [
+      [
+        "rhythmic_density_bar_to_bar_evolution"
+      ],
+      [
+        "grid_attempt_pct_2and4"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp2_tie_fb1",
+    "query": "a soft loudness and a flat even dynamic",
+    "presence": [
+      "dynamics_average_velocity",
+      "dynamics_velocity_spread"
+    ],
+    "importance": [
+      [
+        "dynamics_average_velocity",
+        "dynamics_velocity_spread"
+      ]
+    ],
+    "fallback": {
+      "dynamics_average_velocity": "nearest"
+    }
+  },
+  {
+    "id": "imp3_order_tie1",
+    "query": "give me a driving rhythm, and if possible a climbing intensity and a wide register",
+    "presence": [
+      "rhythmic_density_average_events_per_beat",
+      "dynamics_intensity_trend",
+      "register_spread_semitones"
+    ],
+    "importance": [
+      [
+        "rhythmic_density_average_events_per_beat"
+      ],
+      [
+        "dynamics_intensity_trend",
+        "register_spread_semitones"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp3_tie_all1",
+    "query": "need all: a busy rhythm, a climbing intensity, and a wide register",
+    "presence": [
+      "rhythmic_density_average_events_per_beat",
+      "dynamics_intensity_trend",
+      "register_spread_semitones"
+    ],
+    "importance": [
+      [
+        "rhythmic_density_average_events_per_beat",
+        "dynamics_intensity_trend",
+        "register_spread_semitones"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp3_order1",
+    "query": "has to have a micro-timed groove, second to that - a 2-note texture, if possible also a long duration",
+    "presence": [
+      "grid_micro_jitter",
+      "texture_pct_2_notes",
+      "duration_long_profile"
+    ],
+    "importance": [
+      [
+        "grid_micro_jitter"
+      ],
+      [
+        "texture_pct_2_notes"
+      ],
+      [
+        "duration_long_profile"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp3_order_fb1",
+    "query": "must have a sparse mono texture, then long duration, and try also a moderate or less loudness level",
+    "presence": [
+      "texture_pct_1_notes",
+      "duration_long_profile",
+      "dynamics_average_velocity"
+    ],
+    "importance": [
+      [
+        "texture_pct_1_notes"
+      ],
+      [
+        "duration_long_profile"
+      ],
+      [
+        "dynamics_average_velocity"
+      ]
+    ],
+    "fallback": {
+      "dynamics_average_velocity": "up"
+    }
+  },
+  {
+    "id": "imp3_order_tie2",
+    "query": "pitched: above all there should be a big maximum silence gap, then also a bursty rhythm and a tight adherence to the 2 and 4 beats",
+    "presence": [
+      "spacing_max_silence_beats",
+      "rhythmic_density_burstiness",
+      "grid_attempt_pct_2and4"
+    ],
+    "importance": [
+      [
+        "spacing_max_silence_beats"
+      ],
+      [
+        "rhythmic_density_burstiness",
+        "grid_attempt_pct_2and4"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp3_tie_fb1",
+    "query": "a swung feel, a loose timing, and a mid register, all should be there",
+    "presence": [
+      "grid_macro_jitter",
+      "register_median_note_midi"
+    ],
+    "importance": [
+      [
+        "grid_macro_jitter",
+        "register_median_note_midi"
+      ]
+    ],
+    "fallback": {
+      "register_median_note_midi": "nearest"
+    }
+  },
+  {
+    "id": "imp3_order2",
+    "query": "needs imperfect consonance harmony, then preferably an ascending melody, could also have a strong key center but doesnt have to",
+    "presence": [
+      "harmonic_imperfect_consonance_pct",
+      "melodic_intervals_pct_ascending",
+      "tonality_prevalent_pitch_pct"
+    ],
+    "importance": [
+      [
+        "harmonic_imperfect_consonance_pct"
+      ],
+      [
+        "melodic_intervals_pct_ascending"
+      ],
+      [
+        "tonality_prevalent_pitch_pct"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp3_order_tie3",
+    "query": "above all a heavy accent, would also be nice to have strong loudness and a 2-note texture ",
+    "presence": [
+      "dynamics_accents_presence",
+      "dynamics_average_velocity",
+      "texture_pct_2_notes"
+    ],
+    "importance": [
+      [
+        "dynamics_accents_presence"
+      ],
+      [
+        "dynamics_average_velocity",
+        "texture_pct_2_notes"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp3_order_fb2",
+    "query": "must - a low pitch minimum point, also lets add imperfect consonance, and if possible at least moderate chromaticism",
+    "presence": [
+      "register_lowest_note_midi",
+      "harmonic_imperfect_consonance_pct",
+      "tonality_out_of_key_notes"
+    ],
+    "importance": [
+      [
+        "register_lowest_note_midi"
+      ],
+      [
+        "harmonic_imperfect_consonance_pct"
+      ],
+      [
+        "tonality_out_of_key_notes"
+      ]
+    ],
+    "fallback": {
+      "tonality_out_of_key_notes": "down"
+    }
+  },
+  {
+    "id": "imp3_tie_all2",
+    "query": "pitched: a turnaround rhythm shift, a quarter-note spacing, and an accented feel, dont drop any of them",
+    "presence": [
+      "rhythmic_density_turnaround_shift",
+      "spacing_quarter_share",
+      "dynamics_accents_presence"
+    ],
+    "importance": [
+      [
+        "rhythmic_density_turnaround_shift",
+        "spacing_quarter_share",
+        "dynamics_accents_presence"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp4_order_tie1",
+    "query": "should be a growing rhythm density without a doubt, also needed a climbing intensity and a wide register, could be ascending melody",
+    "presence": [
+      "rhythmic_density_trend",
+      "dynamics_intensity_trend",
+      "register_spread_semitones",
+      "melodic_intervals_pct_ascending"
+    ],
+    "importance": [
+      [
+        "rhythmic_density_trend"
+      ],
+      [
+        "dynamics_intensity_trend",
+        "register_spread_semitones"
+      ],
+      [
+        "melodic_intervals_pct_ascending"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp4_tie_groups1",
+    "query": "must-haves: a sparse mono texture and a medium duration; then if you find them: a micro-timed feel and a loose timing",
+    "presence": [
+      "texture_pct_1_notes",
+      "duration_medium_profile",
+      "grid_micro_jitter",
+      "grid_macro_jitter"
+    ],
+    "importance": [
+      [
+        "texture_pct_1_notes",
+        "duration_medium_profile"
+      ],
+      [
+        "grid_micro_jitter",
+        "grid_macro_jitter"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp4_order1",
+    "query": "a micro-timed groove first, a short spacing should also be, then an accented feel probably, and mid register would also be good maybe",
+    "presence": [
+      "grid_micro_jitter",
+      "spacing_short_profile",
+      "dynamics_accents_presence",
+      "register_median_note_midi"
+    ],
+    "importance": [
+      [
+        "grid_micro_jitter"
+      ],
+      [
+        "spacing_short_profile"
+      ],
+      [
+        "dynamics_accents_presence"
+      ],
+      [
+        "register_median_note_midi"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp4_tie_all1",
+    "query": "bring all: a busy rhythm, a climbing intensity, a shifting register, and a dissonant harmony",
+    "presence": [
+      "rhythmic_density_average_events_per_beat",
+      "dynamics_intensity_trend",
+      "register_boundary_shift_semitones",
+      "harmonic_dissonance_pct"
+    ],
+    "importance": [
+      [
+        "rhythmic_density_average_events_per_beat",
+        "dynamics_intensity_trend",
+        "register_boundary_shift_semitones",
+        "harmonic_dissonance_pct"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp4_order_fb1",
+    "query": "most iportantly a clearly huge maximum silence gap, long duration should be as well, then try to look for an at most moderatly varying loudness level and a polyphonic texture",
+    "presence": [
+      "spacing_max_silence_beats",
+      "duration_long_profile",
+      "dynamics_velocity_spread",
+      "texture_polyphonic_pct"
+    ],
+    "importance": [
+      [
+        "spacing_max_silence_beats"
+      ],
+      [
+        "duration_long_profile"
+      ],
+      [
+        "dynamics_velocity_spread",
+        "texture_polyphonic_pct"
+      ]
+    ],
+    "fallback": {
+      "dynamics_velocity_spread": "up"
+    }
+  },
+  {
+    "id": "imp4_order_tie2",
+    "query": "a wide register for sure, then also a strong key center and a mono line, one standout leap would be appreciated",
+    "presence": [
+      "register_spread_semitones",
+      "tonality_prevalent_pitch_pct",
+      "texture_pct_1_notes",
+      "melodic_intervals_max_leap_semitones"
+    ],
+    "importance": [
+      [
+        "register_spread_semitones"
+      ],
+      [
+        "tonality_prevalent_pitch_pct",
+        "texture_pct_1_notes"
+      ],
+      [
+        "melodic_intervals_max_leap_semitones"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp4_tie_groups2",
+    "query": "all musts: a tight grid and a precise grid success; then: a bursty rhythm and a short spacing",
+    "presence": [
+      "grid_attempt_pct_2and4",
+      "grid_success_pct_2and4",
+      "rhythmic_density_burstiness",
+      "spacing_short_profile"
+    ],
+    "importance": [
+      [
+        "grid_attempt_pct_2and4",
+        "grid_success_pct_2and4"
+      ],
+      [
+        "rhythmic_density_burstiness",
+        "spacing_short_profile"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp4_order2",
+    "query": "first a busy rhythm, second a chordal texture, better if has an imperfect consonant harmony, the register can maybe touch very high pitch at the ceiling note but doesnt have to",
+    "presence": [
+      "rhythmic_density_average_events_per_beat",
+      "texture_polyphonic_pct",
+      "harmonic_imperfect_consonance_pct",
+      "register_highest_note_midi"
+    ],
+    "importance": [
+      [
+        "rhythmic_density_average_events_per_beat"
+      ],
+      [
+        "texture_polyphonic_pct"
+      ],
+      [
+        "harmonic_imperfect_consonance_pct"
+      ],
+      [
+        "register_highest_note_midi"
+      ]
+    ],
+    "fallback": {}
+  },
+  {
+    "id": "imp4_order_fb2",
+    "query": "polyphonic texture is extremely needed, there should be a long duration and a no mono line, also probably medium or stronger loudness",
+    "presence": [
+      "texture_polyphonic_pct",
+      "duration_long_profile",
+      "texture_pct_1_notes",
+      "dynamics_average_velocity"
+    ],
+    "importance": [
+      [
+        "texture_polyphonic_pct"
+      ],
+      [
+        "duration_long_profile",
+        "texture_pct_1_notes"
+      ],
+      [
+        "dynamics_average_velocity"
+      ]
+    ],
+    "fallback": {
+      "dynamics_average_velocity": "down"
+    }
+  },
+  {
+    "id": "imp4_tie_all2",
+    "query": "all: a swung feel, a loose timing, a evolving bar density, and a high loudness",
+    "presence": [
+      "grid_macro_jitter",
+      "rhythmic_density_bar_to_bar_evolution",
+      "dynamics_average_velocity"
+    ],
+    "importance": [
+      [
+        "grid_macro_jitter",
+        "rhythmic_density_bar_to_bar_evolution",
+        "dynamics_average_velocity"
+      ]
+    ],
+    "fallback": {}
+  }
+]

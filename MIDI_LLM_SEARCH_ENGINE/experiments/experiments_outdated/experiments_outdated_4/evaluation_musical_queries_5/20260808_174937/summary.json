@@ -1,0 +1,8 @@
+{
+  "phase": "test_4",
+  "bank": "test_4_musical_queries.json",
+  "total": 100,
+  "errors": 0,
+  "with_targets": 100,
+  "mean_novelty": 0.4885
+}

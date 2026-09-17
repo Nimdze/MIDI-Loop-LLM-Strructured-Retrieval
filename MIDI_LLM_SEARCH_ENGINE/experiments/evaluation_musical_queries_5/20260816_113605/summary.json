@@ -1,0 +1,15 @@
+{
+  "phase": "evaluation_4",
+  "bank": "evaluation_5_musical_queries.json",
+  "total": 100,
+  "errors": 0,
+  "with_targets": 100,
+  "mean_novelty": 0.4371,
+  "token_usage": {
+    "prompt_avg": 19221,
+    "completion_avg": 5154,
+    "total_prompt": 1922060,
+    "total_completion": 515428
+  },
+  "response_time_ms_avg": 50109.6
+}

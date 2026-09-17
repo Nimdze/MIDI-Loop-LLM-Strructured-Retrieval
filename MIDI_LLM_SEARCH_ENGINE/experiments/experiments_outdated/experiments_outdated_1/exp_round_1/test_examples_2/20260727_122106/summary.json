@@ -1,0 +1,8 @@
+{
+  "phase": "test2",
+  "description": "Single-concept example validation (no combos)",
+  "total": 255,
+  "passed": 246,
+  "failed": 9,
+  "accuracy": 0.9647
+}

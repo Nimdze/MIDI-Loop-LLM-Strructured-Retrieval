@@ -1,0 +1,72 @@
+{
+  "phase": "test_2",
+  "description": "Taxonomy examples, singles + combos 1-10",
+  "total": 205,
+  "passed": 199,
+  "failed": 6,
+  "accuracy": 0.9707,
+  "families": {
+    "drums": {
+      "total": 102,
+      "passed": 102,
+      "accuracy": 1.0
+    },
+    "pitched": {
+      "total": 103,
+      "passed": 97,
+      "accuracy": 0.9417
+    }
+  },
+  "combos": {
+    "1": {
+      "total": 40,
+      "passed": 40,
+      "accuracy": 1.0
+    },
+    "2": {
+      "total": 47,
+      "passed": 47,
+      "accuracy": 1.0
+    },
+    "3": {
+      "total": 24,
+      "passed": 23,
+      "accuracy": 0.9583
+    },
+    "4": {
+      "total": 20,
+      "passed": 18,
+      "accuracy": 0.9
+    },
+    "5": {
+      "total": 20,
+      "passed": 20,
+      "accuracy": 1.0
+    },
+    "6": {
+      "total": 16,
+      "passed": 15,
+      "accuracy": 0.9375
+    },
+    "7": {
+      "total": 12,
+      "passed": 12,
+      "accuracy": 1.0
+    },
+    "8": {
+      "total": 10,
+      "passed": 8,
+      "accuracy": 0.8
+    },
+    "9": {
+      "total": 8,
+      "passed": 8,
+      "accuracy": 1.0
+    },
+    "10": {
+      "total": 8,
+      "passed": 8,
+      "accuracy": 1.0
+    }
+  }
+}
