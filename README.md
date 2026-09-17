@@ -2,8 +2,7 @@
 
 **Natural Language MIDI Loop Retrieval via Structured LLM Translation and Deterministic Scoring**
 
-Companion code for the demo paper *Natural Language MIDI Loop Retrieval via Structured LLM
-Translation and Deterministic Scoring*. It bridges natural language and symbolic music by
+Companion code for the demo paper named above. It bridges natural language and symbolic music by
 separating *semantic interpretation* from *deterministic scoring*: a Large Language Model
 translates open-ended queries into bounded, algorithmically-defined constraints, and a
 deterministic scorer ranks MIDI loops against them.
