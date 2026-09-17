@@ -14,18 +14,14 @@ deterministic scorer ranks MIDI loops against them.
 
 ## Overview
 
-Modern music production relies heavily on short, single-instrument MIDI loops. Existing Music
-Information Retrieval tools are optimized for audio or full pieces, and conventional retrieval
-methods struggle with the precise logical constraints and per-musician customization that producers
-need for symbolic loop retrieval: they capture broad similarity but cannot enforce strict
-constraints (`not`, `only`), directional bounds, or tiered composition, and a context-free MIDI loop
-is inherently malleable — its "feel" depends on the rendering synthesizer.
-
-This project is built entirely on **structural extraction**. Instead of asking a model to judge
-subjective qualities, it extracts measurable musical features, quantizes them into ordered semantic
-levels, and uses the LLM only as a translator from natural language into that bounded schema. The
-division of labor makes retrieval verifiable and debuggable, and lets users inject custom
-definitions through an instructions prompt in real time — with no re-indexing.
+Modern music production relies heavily on short, single-instrument MIDI loops. However, existing
+Music Information Retrieval (MIR) tools are optimized for audio or full-piece applications, and
+standard dense retrieval methods struggle with the precise logical constraints and customization
+that producers require for symbolic loop retrieval. This demo presents a novel retrieval
+architecture that bridges natural language and symbolic music by separating semantic interpretation
+from deterministic scoring. A Large Language Model (LLM) translates open-ended queries into
+structured constraints across ~150 algorithmically extracted features. We demonstrate this system
+via a web search interface, allowing users to interactively query and audition MIDI loops.
 
 ## Pipeline
 
