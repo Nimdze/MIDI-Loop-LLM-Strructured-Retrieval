@@ -11,10 +11,6 @@ default_dataset/Dubstep_preprocessed/
 default_dataset/HP-10_preprocessed/
 soundfonts/
 
-# Local-only comparison-to-embedding evaluation (not published)
-BASELINES_EVALUATION/
-**/comparison_app.py
-
 # Build artifacts
 build/
 dist/

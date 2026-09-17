@@ -15,9 +15,9 @@ algorithmically-defined constraints, and a deterministic scorer ranks MIDI loops
 ## Overview
 
 Modern music production relies heavily on short, single-instrument MIDI loops. Existing Music
-Information Retrieval tools are optimized for audio or full pieces, and standard dense-retrieval
+Information Retrieval tools are optimized for audio or full pieces, and conventional retrieval
 methods struggle with the precise logical constraints and per-musician customization that producers
-need for symbolic loop retrieval: vector spaces capture broad similarity but cannot enforce strict
+need for symbolic loop retrieval: they capture broad similarity but cannot enforce strict
 constraints (`not`, `only`), directional bounds, or tiered composition, and a context-free MIDI loop
 is inherently malleable — its "feel" depends on the rendering synthesizer.
 

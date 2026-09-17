@@ -55,7 +55,7 @@ The LLM returns a semantically related concept instead of the exact one expected
 - Modality confusion (harmonic `06` vs melodic `06`)
 - Compound interval number confusion (#139, #141-143, #148)
 
-**Root cause:** The LLM treats the concept taxonomy as a semantic graph, not a flat enumeration. Related concepts are clustered in embedding space and the model substitutes freely within a cluster. This is actually *desirable for search* — a user asking about "short spacing" should get matches whether the file is tagged with `16th_share` or `short_profile`. This led to the **"extras are acceptable"** criterion (test 3).
+**Root cause:** The LLM treats the concept taxonomy as a semantic graph, not a flat enumeration. Related concepts are clustered in the model's semantic space and the model substitutes freely within a cluster. This is actually *desirable for search* — a user asking about "short spacing" should get matches whether the file is tagged with `16th_share` or `short_profile`. This led to the **"extras are acceptable"** criterion (test 3).
 
 ### Pattern 3: Grid Success ⇄ Attempt Coupling
 
@@ -137,7 +137,7 @@ In natural prose, the LLM attributes concepts to the wrong instrument — "heavy
 
 2. **Paired concepts (`pair_with`) are a double-edged sword** — coupling helps the LLM understand relationships but causes interchangeability when both must be output independently (test 1, test 6).
 
-3. **The LLM operates on a semantic graph, not a tag dictionary.** It clusters related concepts (`burst_rate` / `polyphonic_pct`, `16th_share` / `short_profile`) and substitutes freely within clusters. This is architecturally consistent with how embedding-based retrieval works and suggests the taxonomy's category/subcategory structure is well-aligned with the model's internal representation.
+3. **The LLM operates on a semantic graph, not a tag dictionary.** It clusters related concepts (`burst_rate` / `polyphonic_pct`, `16th_share` / `short_profile`) and substitutes freely within clusters, which suggests the taxonomy's category/subcategory structure is well-aligned with the model's internal representation.
 
 4. **Category headers matter.** The `[METADATA]` prefix is treated as a priority signal by the LLM. Renaming it to `[INFO]` is expected to significantly reduce metadata drop rates at high combo counts.
 
